@@ -1,17 +1,17 @@
--- public.products definition
+-- products definition
 
 -- Drop table
 
--- DROP TABLE public.products;
+-- DROP TABLE products;
 
-CREATE TABLE public.products (
+CREATE TABLE products (
 	product_id varchar NULL,
 	product_name varchar NULL,
 	category varchar NULL,
 	sub_category varchar NULL
 );
 
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-BO-10000112','Bush Birmingham Collection Bookcase, Dark Cherry','Furniture','Bookcases'),
 	 ('FUR-BO-10000330','Sauder Camden County Barrister Bookcase, Planked Cherry Finish','Furniture','Bookcases'),
 	 ('FUR-BO-10000362','Sauder Inglewood Library Bookcases','Furniture','Bookcases'),
@@ -22,7 +22,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-BO-10001519','O''Sullivan 3-Shelf Heavy-Duty Bookcases','Furniture','Bookcases'),
 	 ('FUR-BO-10001567','Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled','Furniture','Bookcases'),
 	 ('FUR-BO-10001601','Sauder Mission Library with Doors, Fruitwood Finish','Furniture','Bookcases');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-BO-10001608','Hon Metal Bookcases, Black','Furniture','Bookcases'),
 	 ('FUR-BO-10001619','O''Sullivan Cherrywood Estates Traditional Bookcase','Furniture','Bookcases'),
 	 ('FUR-BO-10001798','Bush Somerset Collection Bookcase','Furniture','Bookcases'),
@@ -33,7 +33,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-BO-10002206','Bush Saratoga Collection 5-Shelf Bookcase, Hanover Cherry, *Special Order','Furniture','Bookcases'),
 	 ('FUR-BO-10002213','Sauder Forest Hills Library, Woodland Oak Finish','Furniture','Bookcases'),
 	 ('FUR-BO-10002268','Sauder Barrister Bookcases','Furniture','Bookcases');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-BO-10002545','Atlantic Metals Mobile 3-Shelf Bookcases, Custom Colors','Furniture','Bookcases'),
 	 ('FUR-BO-10002598','Hon Metal Bookcases, Putty','Furniture','Bookcases'),
 	 ('FUR-BO-10002613','Atlantic Metals Mobile 4-Shelf Bookcases, Custom Colors','Furniture','Bookcases'),
@@ -44,7 +44,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-BO-10003159','Sauder Camden County Collection Libraries, Planked Cherry Finish','Furniture','Bookcases'),
 	 ('FUR-BO-10003272','O''Sullivan Living Dimensions 5-Shelf Bookcases','Furniture','Bookcases'),
 	 ('FUR-BO-10003404','Global Adaptabilites Bookcase, Cherry/Storm Gray Finish','Furniture','Bookcases');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-BO-10003433','Sauder Cornerstone Collection Library','Furniture','Bookcases'),
 	 ('FUR-BO-10003441','Bush Westfield Collection Bookcases, Fully Assembled','Furniture','Bookcases'),
 	 ('FUR-BO-10003450','Bush Westfield Collection Bookcases, Dark Cherry Finish','Furniture','Bookcases'),
@@ -55,7 +55,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-BO-10003965','O''Sullivan Manor Hill 2-Door Library in Brianna Oak','Furniture','Bookcases'),
 	 ('FUR-BO-10003966','Sauder Facets Collection Library, Sky Alder Finish','Furniture','Bookcases'),
 	 ('FUR-BO-10004015','Bush Andora Bookcase, Maple/Graphite Gray Finish','Furniture','Bookcases');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-BO-10004218','Bush Heritage Pine Collection 5-Shelf Bookcase, Albany Pine Finish, *Special Order','Furniture','Bookcases'),
 	 ('FUR-BO-10004357','O''Sullivan Living Dimensions 3-Shelf Bookcases','Furniture','Bookcases'),
 	 ('FUR-BO-10004360','Rush Hierlooms Collection Rich Wood Bookcases','Furniture','Bookcases'),
@@ -66,7 +66,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-BO-10004709','Bush Westfield Collection Bookcases, Medium Cherry Finish','Furniture','Bookcases'),
 	 ('FUR-BO-10004834','Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish','Furniture','Bookcases'),
 	 ('FUR-CH-10000015','Hon Multipurpose Stacking Arm Chairs','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10000155','Global Comet Stacking Armless Chair','Furniture','Chairs'),
 	 ('FUR-CH-10000225','Global Geo Office Task Chair, Gray','Furniture','Chairs'),
 	 ('FUR-CH-10000229','Global Enterprise Series Seating High-Back Swivel/Tilt Chairs','Furniture','Chairs'),
@@ -77,7 +77,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10000553','Metal Folding Chairs, Beige, 4/Carton','Furniture','Chairs'),
 	 ('FUR-CH-10000595','Safco Contoured Stacking Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10000665','Global Airflow Leather Mesh Back Chair, Black','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10000749','Office Star - Ergonomic Mid Back Chair with 2-Way Adjustable Arms','Furniture','Chairs'),
 	 ('FUR-CH-10000785','Global Ergonomic Managers Chair','Furniture','Chairs'),
 	 ('FUR-CH-10000847','Global Executive Mid-Back Manager''s Chair','Furniture','Chairs'),
@@ -88,7 +88,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10001215','Global Troy Executive Leather Low-Back Tilter','Furniture','Chairs'),
 	 ('FUR-CH-10001270','Harbour Creations Steel Folding Chair','Furniture','Chairs'),
 	 ('FUR-CH-10001394','Global Leather Executive Chair','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10001482','Office Star - Mesh Screen back chair with Vinyl seat','Furniture','Chairs'),
 	 ('FUR-CH-10001545','Hon Comfortask Task/Swivel Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10001708','Office Star - Contemporary Swivel Chair with Padded Adjustable Arms and Flex Back','Furniture','Chairs'),
@@ -99,7 +99,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10001891','Global Deluxe Office Fabric Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10001973','Office Star Flex Back Scooter Chair with White Frame','Furniture','Chairs'),
 	 ('FUR-CH-10002017','SAFCO Optional Arm Kit for Workspace Cribbage Stacking Chair','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10002024','HON 5400 Series Task Chairs for Big and Tall','Furniture','Chairs'),
 	 ('FUR-CH-10002044','Office Star - Contemporary Task Swivel chair with 2-way adjustable arms, Plum','Furniture','Chairs'),
 	 ('FUR-CH-10002073','Hon Olson Stacker Chairs','Furniture','Chairs'),
@@ -110,7 +110,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10002320','Hon Pagoda Stacking Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10002331','Hon 4700 Series Mobuis Mid-Back Task Chairs with Adjustable Arms','Furniture','Chairs'),
 	 ('FUR-CH-10002335','Hon GuestStacker Chair','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10002372','Office Star - Ergonomically Designed Knee Chair','Furniture','Chairs'),
 	 ('FUR-CH-10002439','Iceberg Nesting Folding Chair, 19w x 6d x 43h','Furniture','Chairs'),
 	 ('FUR-CH-10002602','DMI Arturo Collection Mission-style Design Wood Chair','Furniture','Chairs'),
@@ -121,7 +121,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10002880','Global High-Back Leather Tilter, Burgundy','Furniture','Chairs'),
 	 ('FUR-CH-10002961','Leather Task Chair, Black','Furniture','Chairs'),
 	 ('FUR-CH-10002965','Global Leather Highback Executive Chair with Pneumatic Height Adjustment, Black','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10003061','Global Leather Task Chair, Black','Furniture','Chairs'),
 	 ('FUR-CH-10003199','Office Star - Contemporary Task Swivel Chair','Furniture','Chairs'),
 	 ('FUR-CH-10003298','Office Star - Contemporary Task Swivel chair with Loop Arms, Charcoal','Furniture','Chairs'),
@@ -132,7 +132,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10003606','SAFCO Folding Chair Trolley','Furniture','Chairs'),
 	 ('FUR-CH-10003746','Hon 4070 Series Pagoda Round Back Stacking Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10003761','Global Italian Leather Office Chair','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10003774','Global Wood Trimmed Manager''s Task Chair, Khaki','Furniture','Chairs'),
 	 ('FUR-CH-10003817','Global Value Steno Chair, Gray','Furniture','Chairs'),
 	 ('FUR-CH-10003833','Novimex Fabric Task Chair','Furniture','Chairs'),
@@ -143,7 +143,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10003981','Global Commerce Series Low-Back Swivel/Tilt Chairs','Furniture','Chairs'),
 	 ('FUR-CH-10004063','Global Deluxe High-Back Manager''s Chair','Furniture','Chairs'),
 	 ('FUR-CH-10004086','Hon 4070 Series Pagoda Armless Upholstered Stacking Chairs','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10004218','Global Fabric Manager''s Chair, Dark Gray','Furniture','Chairs'),
 	 ('FUR-CH-10004287','SAFCO Arco Folding Chair','Furniture','Chairs'),
 	 ('FUR-CH-10004289','Global Super Steno Chair','Furniture','Chairs'),
@@ -154,7 +154,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-CH-10004675','Lifetime Advantage Folding Chairs, 4/Carton','Furniture','Chairs'),
 	 ('FUR-CH-10004698','Padded Folding Chairs, Black, 4/Carton','Furniture','Chairs'),
 	 ('FUR-CH-10004754','Global Stack Chair with Arms, Black','Furniture','Chairs');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-CH-10004853','Global Manager''s Adjustable Task Chair, Storm','Furniture','Chairs'),
 	 ('FUR-CH-10004860','Global Low Back Tilter Chair','Furniture','Chairs'),
 	 ('FUR-CH-10004875','Harbour Creations 67200 Series Stacking Chairs','Furniture','Chairs'),
@@ -165,7 +165,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10000023','Eldon Wave Desk Accessories','Furniture','Furnishings'),
 	 ('FUR-FU-10000073','Deflect-O Glasstique Clear Desk Accessories','Furniture','Furnishings'),
 	 ('FUR-FU-10000076','24-Hour Round Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10000087','Executive Impressions 14" Two-Color Numerals Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10000175','DAX Wood Document Frame.','Furniture','Furnishings'),
 	 ('FUR-FU-10000193','Tenex Chairmats For Use with Hard Floors','Furniture','Furnishings'),
@@ -176,7 +176,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10000260','6" Cubicle Wall Clock, Black','Furniture','Furnishings'),
 	 ('FUR-FU-10000277','Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting','Furniture','Furnishings'),
 	 ('FUR-FU-10000293','Eldon Antistatic Chair Mats for Low to Medium Pile Carpets','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10000305','Tenex V2T-RE Standard Weight Series Chair Mat, 45" x 53", Lip 25" x 12"','Furniture','Furnishings'),
 	 ('FUR-FU-10000308','Deflect-o Glass Clear Studded Chair Mats','Furniture','Furnishings'),
 	 ('FUR-FU-10000320','OIC Stacking Trays','Furniture','Furnishings'),
@@ -187,7 +187,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10000550','Stacking Trays by OIC','Furniture','Furnishings'),
 	 ('FUR-FU-10000576','Luxo Professional Fluorescent Magnifier Lamp with Clamp-Mount Base','Furniture','Furnishings'),
 	 ('FUR-FU-10000629','9-3/4 Diameter Round Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10000672','Executive Impressions 10" Spectator Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10000719','DAX Cubicle Frames, 8-1/2 x 11','Furniture','Furnishings'),
 	 ('FUR-FU-10000723','Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting','Furniture','Furnishings'),
@@ -198,7 +198,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10000771','Eldon 200 Class Desk Accessories, Smoke','Furniture','Furnishings'),
 	 ('FUR-FU-10000794','Eldon Stackable Tray, Side-Load, Legal, Smoke','Furniture','Furnishings'),
 	 ('FUR-FU-10000820','Tensor Brushed Steel Torchiere Floor Lamp','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10000965','Howard Miller 11-1/2" Diameter Ridgewood Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10001025','Eldon Imàge Series Desk Accessories, Clear','Furniture','Furnishings'),
 	 ('FUR-FU-10001037','DAX Charcoal/Nickel-Tone Document Frame, 5 x 7','Furniture','Furnishings'),
@@ -209,7 +209,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10001196','DAX Cubicle Frames - 8x10','Furniture','Furnishings'),
 	 ('FUR-FU-10001215','Howard Miller 11-1/2" Diameter Brentwood Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10001290','Executive Impressions Supervisor Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10001379','Executive Impressions 16-1/2" Circular Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10001424','Dax Clear Box Frame','Furniture','Furnishings'),
 	 ('FUR-FU-10001468','Tenex Antistatic Computer Chair Mats','Furniture','Furnishings'),
@@ -220,7 +220,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10001546','Dana Swing-Arm Lamps','Furniture','Furnishings'),
 	 ('FUR-FU-10001588','Deflect-o SuperTray Unbreakable Stackable Tray, Letter, Black','Furniture','Furnishings'),
 	 ('FUR-FU-10001591','Advantus Panel Wall Certificate Holder - 8.5x11','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10001602','Eldon Delta Triangular Chair Mat, 52" x 58", Clear','Furniture','Furnishings'),
 	 ('FUR-FU-10001617','Executive Impressions 8-1/2" Career Panel/Partition Cubicle Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10001706','Longer-Life Soft White Bulbs','Furniture','Furnishings'),
@@ -231,7 +231,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10001861','Floodlight Indoor Halogen Bulbs, 1 Bulb per Pack, 60 Watts','Furniture','Furnishings'),
 	 ('FUR-FU-10001867','Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry','Furniture','Furnishings'),
 	 ('FUR-FU-10001876','Computer Room Manger, 14"','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10001889','Ultra Door Pull Handle','Furniture','Furnishings'),
 	 ('FUR-FU-10001918','C-Line Cubicle Keepers Polyproplyene Holder With Velcro Backings','Furniture','Furnishings'),
 	 ('FUR-FU-10001934','Magnifier Swing Arm Lamp','Furniture','Furnishings'),
@@ -242,7 +242,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10001986','Dana Fluorescent Magnifying Lamp, White, 36"','Furniture','Furnishings'),
 	 ('FUR-FU-10002030','Executive Impressions 14" Contract Wall Clock with Quartz Movement','Furniture','Furnishings'),
 	 ('FUR-FU-10002045','Executive Impressions 14"','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10002088','Nu-Dell Float Frame 11 x 14 1/2','Furniture','Furnishings'),
 	 ('FUR-FU-10002107','Eldon Pizzaz Desk Accessories','Furniture','Furnishings'),
 	 ('FUR-FU-10002111','Master Caster Door Stop, Large Brown','Furniture','Furnishings'),
@@ -253,7 +253,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10002253','Howard Miller 13" Diameter Pewter Finish Round Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10002268','Ultra Door Push Plate','Furniture','Furnishings'),
 	 ('FUR-FU-10002298','Rubbermaid ClusterMat Chairmats, Mat Size- 66" x 60", Lip 20" x 11" -90 Degree Angle','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10002364','Eldon Expressions Wood Desk Accessories, Oak','Furniture','Furnishings'),
 	 ('FUR-FU-10002379','Eldon Econocleat Chair Mats for Low Pile Carpets','Furniture','Furnishings'),
 	 ('FUR-FU-10002396','DAX Copper Panel Document Frame, 5 x 7 Size','Furniture','Furnishings'),
@@ -264,7 +264,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10002506','Tensor "Hersey Kiss" Styled Floor Lamp','Furniture','Furnishings'),
 	 ('FUR-FU-10002508','Document Clip Frames','Furniture','Furnishings'),
 	 ('FUR-FU-10002553','Electrix Incandescent Magnifying Lamp, Black','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10002554','Westinghouse Floor Lamp with Metal Mesh Shade, Black','Furniture','Furnishings'),
 	 ('FUR-FU-10002597','C-Line Magnetic Cubicle Keepers, Clear Polypropylene','Furniture','Furnishings'),
 	 ('FUR-FU-10002671','Electrix 20W Halogen Replacement Bulb for Zoom-In Desk Lamp','Furniture','Furnishings'),
@@ -275,7 +275,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10002874','Ultra Commercial Grade Dual Valve Door Closer','Furniture','Furnishings'),
 	 ('FUR-FU-10002878','Seth Thomas 14" Day/Date Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10002885','Magna Visual Magnetic Picture Hangers','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10002918','Eldon ClusterMat Chair Mat with Cordless Antistatic Protection','Furniture','Furnishings'),
 	 ('FUR-FU-10002937','GE 48" Fluorescent Tube, Cool White Energy Saver, 34 Watts, 30/Box','Furniture','Furnishings'),
 	 ('FUR-FU-10002960','Eldon 200 Class Desk Accessories, Burgundy','Furniture','Furnishings'),
@@ -286,7 +286,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10003096','Master Giant Foot Doorstop, Safety Yellow','Furniture','Furnishings'),
 	 ('FUR-FU-10003142','Master Big Foot Doorstop, Beige','Furniture','Furnishings'),
 	 ('FUR-FU-10003192','Luxo Adjustable Task Clamp Lamp','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10003194','Eldon Expressions Desk Accessory, Wood Pencil Holder, Oak','Furniture','Furnishings'),
 	 ('FUR-FU-10003247','36X48 HARDFLOOR CHAIRMAT','Furniture','Furnishings'),
 	 ('FUR-FU-10003268','Eldon Radial Chair Mat for Low to Medium Pile Carpets','Furniture','Furnishings'),
@@ -297,7 +297,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10003424','Nu-Dell Oak Frame','Furniture','Furnishings'),
 	 ('FUR-FU-10003464','Seth Thomas 8 1/2" Cubicle Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10003489','Contemporary Borderless Frame','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10003535','Howard Miller Distant Time Traveler Alarm Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10003553','Howard Miller 13-1/2" Diameter Rosebrook Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10003577','Nu-Dell Leatherette Frames','Furniture','Furnishings'),
@@ -308,7 +308,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10003708','Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36" x 48"','Furniture','Furnishings'),
 	 ('FUR-FU-10003724','Westinghouse Clip-On Gooseneck Lamps','Furniture','Furnishings'),
 	 ('FUR-FU-10003731','Eldon Expressions Wood and Plastic Desk Accessories, Oak','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10003773','Eldon Cleatmat Plus Chair Mats for High Pile Carpets','Furniture','Furnishings'),
 	 ('FUR-FU-10003798','Ultra Door Kickplate, 8"H x 34"W','Furniture','Furnishings'),
 	 ('FUR-FU-10003799','Seth Thomas 13 1/2" Wall Clock','Furniture','Furnishings'),
@@ -319,7 +319,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10003878','Linden 10" Round Wall Clock, Black','Furniture','Furnishings'),
 	 ('FUR-FU-10003919','Eldon Executive Woodline II Cherry Finish Desk Accessories','Furniture','Furnishings'),
 	 ('FUR-FU-10003930','Howard Miller 12-3/4 Diameter Accuwave DS  Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10003975','Eldon Advantage Chair Mats for Low to Medium Pile Carpets','Furniture','Furnishings'),
 	 ('FUR-FU-10003976','DAX Executive Solid Wood Document Frame, Desktop or Hang, Mahogany, 5 x 7','Furniture','Furnishings'),
 	 ('FUR-FU-10003981','Eldon Wave Desk Accessories','Furniture','Furnishings'),
@@ -330,7 +330,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10004053','DAX Two-Tone Silver Metal Document Frame','Furniture','Furnishings'),
 	 ('FUR-FU-10004071','Luxo Professional Magnifying Clamp-On Fluorescent Lamps','Furniture','Furnishings'),
 	 ('FUR-FU-10004090','Executive Impressions 14" Contract Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10004091','Howard Miller 13" Diameter Goldtone Round Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10004093','Hand-Finished Solid Wood Document Frame','Furniture','Furnishings'),
 	 ('FUR-FU-10004164','Eldon 300 Class Desk Accessories, Black','Furniture','Furnishings'),
@@ -341,7 +341,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10004351','Staple-based wall hangings','Furniture','Furnishings'),
 	 ('FUR-FU-10004415','Stacking Tray, Side-Loading, Legal, Smoke','Furniture','Furnishings'),
 	 ('FUR-FU-10004460','Howard Miller 12" Round Wall Clock','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10004586','G.E. Longer-Life Indoor Recessed Floodlight Bulbs','Furniture','Furnishings'),
 	 ('FUR-FU-10004587','GE General Use Halogen Bulbs, 100 Watts, 1 Bulb per Pack','Furniture','Furnishings'),
 	 ('FUR-FU-10004597','Eldon Cleatmat Chair Mats for Medium Pile Carpets','Furniture','Furnishings'),
@@ -352,7 +352,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10004712','Westinghouse Mesh Shade Clip-On Gooseneck Lamp, Black','Furniture','Furnishings'),
 	 ('FUR-FU-10004748','Howard Miller 16" Diameter Gallery Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10004845','Deflect-o EconoMat Nonstudded, No Bevel Mat','Furniture','Furnishings');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-FU-10004848','Howard Miller 13-3/4" Diameter Brushed Chrome Round Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10004864','Howard Miller 14-1/2" Diameter Chrome Round Wall Clock','Furniture','Furnishings'),
 	 ('FUR-FU-10004904','Eldon "L" Workstation Diamond Chairmat','Furniture','Furnishings'),
@@ -363,7 +363,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-FU-10004973','Flat Face Poster Frame','Furniture','Furnishings'),
 	 ('FUR-TA-10000198','Chromcraft Bull-Nose Wood Oval Conference Tables & Bases','Furniture','Tables'),
 	 ('FUR-TA-10000577','Bretford CR4500 Series Slim Rectangular Table','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10000617','Hon Practical Foundations 30 x 60 Training Table, Light Gray/Charcoal','Furniture','Tables'),
 	 ('FUR-TA-10000688','Chromcraft Bull-Nose Wood Round Conference Table Top, Wood Base','Furniture','Tables'),
 	 ('FUR-TA-10000849','Bevis Rectangular Conference Tables','Furniture','Tables'),
@@ -374,7 +374,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-TA-10001520','Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table','Furniture','Tables'),
 	 ('FUR-TA-10001539','Chromcraft Rectangular Conference Tables','Furniture','Tables'),
 	 ('FUR-TA-10001676','Hon 61000 Series Interactive Training Tables','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10001691','Barricks Non-Folding Utility Table with Steel Legs, Laminate Tops','Furniture','Tables'),
 	 ('FUR-TA-10001705','Bush Advantage Collection Round Conference Table','Furniture','Tables'),
 	 ('FUR-TA-10001768','Hon Racetrack Conference Tables','Furniture','Tables'),
@@ -385,7 +385,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-TA-10001932','Chromcraft 48" x 96" Racetrack Double Pedestal Table','Furniture','Tables'),
 	 ('FUR-TA-10001950','Balt Solid Wood Round Tables','Furniture','Tables'),
 	 ('FUR-TA-10002041','Bevis Round Conference Table Top, X-Base','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10002228','Bevis Traditional Conference Table Top, Plinth Base','Furniture','Tables'),
 	 ('FUR-TA-10002356','Bevis Boat-Shaped Conference Table','Furniture','Tables'),
 	 ('FUR-TA-10002530','Iceberg OfficeWorks 42" Round Tables','Furniture','Tables'),
@@ -396,7 +396,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-TA-10002774','Laminate Occasional Tables','Furniture','Tables'),
 	 ('FUR-TA-10002855','Bevis Round Conference Table Top & Single Column Base','Furniture','Tables'),
 	 ('FUR-TA-10002903','Bevis Round Bullnose 29" High Table Top','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10002958','Bevis Oval Conference Table, Walnut','Furniture','Tables'),
 	 ('FUR-TA-10003008','Lesro Round Back Collection Coffee Table, End Table','Furniture','Tables'),
 	 ('FUR-TA-10003238','Chromcraft Bull-Nose Wood 48" x 96" Rectangular Conference Tables','Furniture','Tables'),
@@ -407,7 +407,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-TA-10003715','Hon 2111 Invitation Series Corner Table','Furniture','Tables'),
 	 ('FUR-TA-10003748','Bevis 36 x 72 Conference Tables','Furniture','Tables'),
 	 ('FUR-TA-10003837','Anderson Hickey Conga Table Tops & Accessories','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10003954','Hon 94000 Series Round Tables','Furniture','Tables'),
 	 ('FUR-TA-10004086','KI Adjustable-Height Table','Furniture','Tables'),
 	 ('FUR-TA-10004147','Hon 4060 Series Tables','Furniture','Tables'),
@@ -418,7 +418,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('FUR-TA-10004289','BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables','Furniture','Tables'),
 	 ('FUR-TA-10004442','Riverside Furniture Stanwyck Manor Table Series','Furniture','Tables'),
 	 ('FUR-TA-10004534','Bevis 44 x 96 Conference Tables','Furniture','Tables');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('FUR-TA-10004575','Hon 5100 Series Wood Tables','Furniture','Tables'),
 	 ('FUR-TA-10004607','Hon 2111 Invitation Series Straight Table','Furniture','Tables'),
 	 ('FUR-TA-10004619','Hon Non-Folding Utility Tables','Furniture','Tables'),
@@ -429,7 +429,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10000055','Belkin F9S820V06 8 Outlet Surge','Office Supplies','Appliances'),
 	 ('OFF-AP-10000124','Acco 6 Outlet Guardian Basic Surge Suppressor','Office Supplies','Appliances'),
 	 ('OFF-AP-10000159','Belkin F9M820V08 8 Outlet Surge','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10000179','Honeywell Enviracaire Portable HEPA Air Cleaner for up to 10 x 16 Room','Office Supplies','Appliances'),
 	 ('OFF-AP-10000240','Belkin F9G930V10-GRY 9 Outlet Surge','Office Supplies','Appliances'),
 	 ('OFF-AP-10000252','Harmony HEPA Quiet Air Purifiers','Office Supplies','Appliances'),
@@ -440,7 +440,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10000576','Belkin 7 Outlet SurgeMaster II','Office Supplies','Appliances'),
 	 ('OFF-AP-10000595','Disposable Triple-Filter Dust Bags','Office Supplies','Appliances'),
 	 ('OFF-AP-10000692','Fellowes Mighty 8 Compact Surge Protector','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10000696','Holmes Odor Grabber','Office Supplies','Appliances'),
 	 ('OFF-AP-10000804','Hoover Portapower Portable Vacuum','Office Supplies','Appliances'),
 	 ('OFF-AP-10000828','Avanti 4.4 Cu. Ft. Refrigerator','Office Supplies','Appliances'),
@@ -451,7 +451,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10001124','Belkin 8 Outlet SurgeMaster II Gold Surge Protector with Phone Protection','Office Supplies','Appliances'),
 	 ('OFF-AP-10001154','Bionaire Personal Warm Mist Humidifier/Vaporizer','Office Supplies','Appliances'),
 	 ('OFF-AP-10001205','Belkin 5 Outlet SurgeMaster Power Centers','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10001242','APC 7 Outlet Network SurgeArrest Surge Protector','Office Supplies','Appliances'),
 	 ('OFF-AP-10001271','Eureka The Boss Cordless Rechargeable Stick Vac','Office Supplies','Appliances'),
 	 ('OFF-AP-10001293','Belkin 8 Outlet Surge Protector','Office Supplies','Appliances'),
@@ -462,7 +462,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10001469','Fellowes 8 Outlet Superior Workstation Surge Protector','Office Supplies','Appliances'),
 	 ('OFF-AP-10001492','Acco Six-Outlet Power Strip, 4'' Cord Length','Office Supplies','Appliances'),
 	 ('OFF-AP-10001563','Belkin Premiere Surge Master II 8-outlet surge protector','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10001564','Hoover Commercial Lightweight Upright Vacuum with E-Z Empty Dirt Cup','Office Supplies','Appliances'),
 	 ('OFF-AP-10001626','Commercial WindTunnel Clean Air Upright Vacuum, Replacement Belts, Filtration Bags','Office Supplies','Appliances'),
 	 ('OFF-AP-10001634','Hoover Commercial Lightweight Upright Vacuum','Office Supplies','Appliances'),
@@ -473,7 +473,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10002191','Belkin 8 Outlet SurgeMaster II Gold Surge Protector','Office Supplies','Appliances'),
 	 ('OFF-AP-10002203','Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac','Office Supplies','Appliances'),
 	 ('OFF-AP-10002222','Staple holder','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10002287','Eureka Sanitaire  Multi-Pro Heavy-Duty Upright, Disposable Bags','Office Supplies','Appliances'),
 	 ('OFF-AP-10002311','Holmes Replacement Filter for HEPA Air Cleaner, Very Large Room, HEPA Filter','Office Supplies','Appliances'),
 	 ('OFF-AP-10002350','Belkin F9H710-06 7 Outlet SurgeMaster Surge Protector','Office Supplies','Appliances'),
@@ -484,7 +484,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10002495','Acco Smartsocket Table Surge Protector, 6 Color-Coded Adapter Outlets','Office Supplies','Appliances'),
 	 ('OFF-AP-10002518','Kensington 7 Outlet MasterPiece Power Center','Office Supplies','Appliances'),
 	 ('OFF-AP-10002534','3.6 Cubic Foot Counter Height Office Refrigerator','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10002578','Fellowes Premier Superior Surge Suppressor, 10-Outlet, With Phone and Remote','Office Supplies','Appliances'),
 	 ('OFF-AP-10002651','Hoover Upright Vacuum With Dirt Cup','Office Supplies','Appliances'),
 	 ('OFF-AP-10002670','Belkin 8-Outlet Premiere SurgeMaster II Surge Protectors','Office Supplies','Appliances'),
@@ -495,7 +495,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10002892','Belkin F5C206VTEL 6 Outlet Surge','Office Supplies','Appliances'),
 	 ('OFF-AP-10002906','Hoover Replacement Belt for Commercial Guardsman Heavy-Duty Upright Vacuum','Office Supplies','Appliances'),
 	 ('OFF-AP-10002945','Honeywell Enviracaire Portable HEPA Air Cleaner for 17'' x 22'' Room','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10002998','Holmes 99% HEPA Air Purifier','Office Supplies','Appliances'),
 	 ('OFF-AP-10003040','Fellowes 8 Outlet Superior Workstation Surge Protector w/o Phone/Fax/Modem Protection','Office Supplies','Appliances'),
 	 ('OFF-AP-10003057','Honeywell Enviracaire Portable HEPA Air Cleaner for 16'' x 20'' Room','Office Supplies','Appliances'),
@@ -506,7 +506,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10003281','Acco 6 Outlet Guardian Standard Surge Suppressor','Office Supplies','Appliances'),
 	 ('OFF-AP-10003287','Tripp Lite TLP810NET Broadband Surge for Modem/Fax','Office Supplies','Appliances'),
 	 ('OFF-AP-10003590','Hoover WindTunnel Plus Canister Vacuum','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10003622','Bravo II Megaboss 12-Amp Hard Body Upright, Replacement Belts, 2 Belts per Pack','Office Supplies','Appliances'),
 	 ('OFF-AP-10003779','Kensington 7 Outlet MasterPiece Power Center with Fax/Phone Line Protection','Office Supplies','Appliances'),
 	 ('OFF-AP-10003842','Euro-Pro Shark Turbo Vacuum','Office Supplies','Appliances'),
@@ -517,7 +517,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10003971','Belkin 6 Outlet Metallic Surge Strip','Office Supplies','Appliances'),
 	 ('OFF-AP-10004036','Bionaire 99.97% HEPA Air Cleaner','Office Supplies','Appliances'),
 	 ('OFF-AP-10004052','Hoover Replacement Belts For Soft Guard & Commercial Ltweight Upright Vacs, 2/Pk','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10004136','Kensington 6 Outlet SmartSocket Surge Protector','Office Supplies','Appliances'),
 	 ('OFF-AP-10004233','Honeywell Enviracaire Portable Air Cleaner for up to 8 x 10 Room','Office Supplies','Appliances'),
 	 ('OFF-AP-10004249','Staple holder','Office Supplies','Appliances'),
@@ -528,7 +528,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AP-10004655','Holmes Visible Mist Ultrasonic Humidifier with 2.3-Gallon Output per Day, Replacement Filter','Office Supplies','Appliances'),
 	 ('OFF-AP-10004708','Fellowes Superior 10 Outlet Split Surge Protector','Office Supplies','Appliances'),
 	 ('OFF-AP-10004785','Holmes Replacement Filter for HEPA Air Cleaner, Medium Room','Office Supplies','Appliances');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AP-10004859','Acco 6 Outlet Guardian Premium Surge Suppressor','Office Supplies','Appliances'),
 	 ('OFF-AP-10004868','Hoover Commercial Soft Guard Upright Vacuum And Disposable Filtration Bags','Office Supplies','Appliances'),
 	 ('OFF-AP-10004980','3M Replacement Filter for Office Air Cleaner for 20'' x 33'' Room','Office Supplies','Appliances'),
@@ -539,7 +539,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10000246','Newell 318','Office Supplies','Art'),
 	 ('OFF-AR-10000255','Newell 328','Office Supplies','Art'),
 	 ('OFF-AR-10000315','Dixon Ticonderoga Maple Cedar Pencil, #2','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10000369','Design Ebony Sketching Pencil','Office Supplies','Art'),
 	 ('OFF-AR-10000380','Hunt PowerHouse Electric Pencil Sharpener, Blue','Office Supplies','Art'),
 	 ('OFF-AR-10000390','Newell Chalk Holder','Office Supplies','Art'),
@@ -550,7 +550,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10000538','Boston Model 1800 Electric Pencil Sharpener, Gray','Office Supplies','Art'),
 	 ('OFF-AR-10000588','Newell 345','Office Supplies','Art'),
 	 ('OFF-AR-10000614','Barrel Sharpener','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10000634','Newell 320','Office Supplies','Art'),
 	 ('OFF-AR-10000657','Binney & Smith inkTank Desk Highlighter, Chisel Tip, Yellow, 12/Box','Office Supplies','Art'),
 	 ('OFF-AR-10000658','Newell 324','Office Supplies','Art'),
@@ -561,7 +561,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10000896','Newell 329','Office Supplies','Art'),
 	 ('OFF-AR-10000914','Boston 16765 Mini Stand Up Battery Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10000937','Dixon Ticonderoga Core-Lock Colored Pencils, 48-Color Set','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10000940','Newell 343','Office Supplies','Art'),
 	 ('OFF-AR-10001022','SANFORD Liquid Accent Tank-Style Highlighters','Office Supplies','Art'),
 	 ('OFF-AR-10001026','Sanford Uni-Blazer View Highlighters, Chisel Tip, Yellow','Office Supplies','Art'),
@@ -572,7 +572,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10001166','Staples in misc. colors','Office Supplies','Art'),
 	 ('OFF-AR-10001177','Newell 349','Office Supplies','Art'),
 	 ('OFF-AR-10001216','Newell 339','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10001221','Dixon Ticonderoga Erasable Colored Pencil Set, 12-Color','Office Supplies','Art'),
 	 ('OFF-AR-10001227','Newell 338','Office Supplies','Art'),
 	 ('OFF-AR-10001231','Sanford EarthWrite Recycled Pencils, Medium Soft, #2','Office Supplies','Art'),
@@ -583,7 +583,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10001427','Newell 330','Office Supplies','Art'),
 	 ('OFF-AR-10001446','Newell 309','Office Supplies','Art'),
 	 ('OFF-AR-10001468','Sanford Prismacolor Professional Thick Lead Art Pencils, 36-Color Set','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10001473','Newell 313','Office Supplies','Art'),
 	 ('OFF-AR-10001545','Newell 326','Office Supplies','Art'),
 	 ('OFF-AR-10001547','Newell 311','Office Supplies','Art'),
@@ -594,7 +594,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10001725','Boston Home & Office Model 2000 Electric Pencil Sharpeners','Office Supplies','Art'),
 	 ('OFF-AR-10001761','Avery Hi-Liter Smear-Safe Highlighters','Office Supplies','Art'),
 	 ('OFF-AR-10001770','Economy #2 Pencils','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10001860','BIC Liqua Brite Liner','Office Supplies','Art'),
 	 ('OFF-AR-10001868','Prang Dustless Chalk Sticks','Office Supplies','Art'),
 	 ('OFF-AR-10001897','Model L Table or Wall-Mount Pencil Sharpener','Office Supplies','Art'),
@@ -605,7 +605,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10001954','Newell 331','Office Supplies','Art'),
 	 ('OFF-AR-10001955','Newell 319','Office Supplies','Art'),
 	 ('OFF-AR-10001958','Stanley Bostitch Contemporary Electric Pencil Sharpeners','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10001972','Newell 323','Office Supplies','Art'),
 	 ('OFF-AR-10001988','Bulldog Table or Wall-Mount Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10002053','Premium Writing Pencils, Soft, #2 by Central Association for the Blind','Office Supplies','Art'),
@@ -616,7 +616,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10002255','Newell 346','Office Supplies','Art'),
 	 ('OFF-AR-10002257','Eldon Spacemaker Box, Quick-Snap Lid, Clear','Office Supplies','Art'),
 	 ('OFF-AR-10002280','Staples in misc. colors','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10002335','DIXON Oriole Pencils','Office Supplies','Art'),
 	 ('OFF-AR-10002375','Newell 351','Office Supplies','Art'),
 	 ('OFF-AR-10002399','Dixon Prang Watercolor Pencils, 10-Color Set with Brush','Office Supplies','Art'),
@@ -627,7 +627,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10002671','Hunt BOSTON Model 1606 High-Volume Electric Pencil Sharpener, Beige','Office Supplies','Art'),
 	 ('OFF-AR-10002704','Boston 1900 Electric Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10002766','Prang Drawing Pencil Set','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10002804','Faber Castell Col-Erase Pencils','Office Supplies','Art'),
 	 ('OFF-AR-10002818','Panasonic KP-310 Heavy-Duty Electric Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10002833','Newell 322','Office Supplies','Art'),
@@ -638,7 +638,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10003056','Newell 341','Office Supplies','Art'),
 	 ('OFF-AR-10003087','Staples in misc. colors','Office Supplies','Art'),
 	 ('OFF-AR-10003156','50 Colored Long Pencils','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10003158','Fluorescent Highlighters by Dixon','Office Supplies','Art'),
 	 ('OFF-AR-10003179','Dixon Ticonderoga Core-Lock Colored Pencils','Office Supplies','Art'),
 	 ('OFF-AR-10003183','Avery Fluorescent Highlighter Four-Color Set','Office Supplies','Art'),
@@ -649,7 +649,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10003373','Boston School Pro Electric Pencil Sharpener, 1670','Office Supplies','Art'),
 	 ('OFF-AR-10003394','Newell 332','Office Supplies','Art'),
 	 ('OFF-AR-10003405','Dixon My First Ticonderoga Pencil, #2','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10003469','Nontoxic Chalk','Office Supplies','Art'),
 	 ('OFF-AR-10003477','4009 Highlighters','Office Supplies','Art'),
 	 ('OFF-AR-10003478','Avery Hi-Liter EverBold Pen Style Fluorescent Highlighters, 4/Pack','Office Supplies','Art'),
@@ -660,7 +660,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10003582','Boston Electric Pencil Sharpener, Model 1818, Charcoal Black','Office Supplies','Art'),
 	 ('OFF-AR-10003602','Quartet Omega Colored Chalk, 12/Pack','Office Supplies','Art'),
 	 ('OFF-AR-10003631','Staples in misc. colors','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10003651','Newell 350','Office Supplies','Art'),
 	 ('OFF-AR-10003696','Panasonic KP-350BK Electric Pencil Sharpener with Auto Stop','Office Supplies','Art'),
 	 ('OFF-AR-10003723','Avery Hi-Liter Fluorescent Desk Style Markers','Office Supplies','Art'),
@@ -671,7 +671,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10003770','Newell 340','Office Supplies','Art'),
 	 ('OFF-AR-10003772','Boston 16750 Black Compact Battery Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10003811','Newell 327','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10003829','Newell 35','Office Supplies','Art'),
 	 ('OFF-AR-10003856','Newell 344','Office Supplies','Art'),
 	 ('OFF-AR-10003876','Avery Hi-Liter GlideStik Fluorescent Highlighter, Yellow Ink','Office Supplies','Art'),
@@ -682,7 +682,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10004010','Hunt Boston Vacuum Mount KS Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10004022','Panasonic KP-380BK Classic Electric Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10004027','Binney & Smith inkTank Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10004042','BOSTON Model 1800 Electric Pencil Sharpeners, Putty/Woodgrain','Office Supplies','Art'),
 	 ('OFF-AR-10004062','Staples in misc. colors','Office Supplies','Art'),
 	 ('OFF-AR-10004078','Newell 312','Office Supplies','Art'),
@@ -693,7 +693,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10004344','Bulldog Vacuum Base Pencil Sharpener','Office Supplies','Art'),
 	 ('OFF-AR-10004441','BIC Brite Liner Highlighters','Office Supplies','Art'),
 	 ('OFF-AR-10004456','Panasonic KP-4ABK Battery-Operated Pencil Sharpener','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10004511','Sanford Colorific Scented Colored Pencils, 12/Pack','Office Supplies','Art'),
 	 ('OFF-AR-10004582','BIC Brite Liner Grip Highlighters','Office Supplies','Art'),
 	 ('OFF-AR-10004587','Boston 1827 Commercial Additional Cutter, Drive Gear & Gear Rack for 1606','Office Supplies','Art'),
@@ -704,7 +704,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-AR-10004707','Staples in misc. colors','Office Supplies','Art'),
 	 ('OFF-AR-10004752','Blackstonian Pencils','Office Supplies','Art'),
 	 ('OFF-AR-10004757','Crayola Colored Pencils','Office Supplies','Art');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-AR-10004790','Staples in misc. colors','Office Supplies','Art'),
 	 ('OFF-AR-10004817','Colorific Watercolor Pencils','Office Supplies','Art'),
 	 ('OFF-AR-10004930','Turquoise Lead Holder with Pocket Clip','Office Supplies','Art'),
@@ -715,7 +715,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10000042','Pressboard Data Binder, Crimson, 12" X 8 1/2"','Office Supplies','Binders'),
 	 ('OFF-BI-10000050','Angle-D Binders with Locking Rings, Label Holders','Office Supplies','Binders'),
 	 ('OFF-BI-10000069','GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10000088','GBC Imprintable Covers','Office Supplies','Binders'),
 	 ('OFF-BI-10000136','Avery Non-Stick Heavy Duty View Round Locking Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10000138','Acco Translucent Poly Ring Binders','Office Supplies','Binders'),
@@ -726,7 +726,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10000279','Acco Recycled 2" Capacity Laser Printer Hanging Data Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10000285','XtraLife ClearVue Slant-D Ring Binders by Cardinal','Office Supplies','Binders'),
 	 ('OFF-BI-10000301','GBC Instant Report Kit','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10000309','GBC Twin Loop Wire Binding Elements, 9/16" Spine, Black','Office Supplies','Binders'),
 	 ('OFF-BI-10000315','Poly Designer Cover & Back','Office Supplies','Binders'),
 	 ('OFF-BI-10000320','GBC Plastic Binding Combs','Office Supplies','Binders'),
@@ -737,7 +737,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10000494','Acco Economy Flexible Poly Round Ring Binder','Office Supplies','Binders'),
 	 ('OFF-BI-10000545','GBC Ibimaster 500 Manual ProClick Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10000546','Avery Durable Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10000591','Avery Binder Labels','Office Supplies','Binders'),
 	 ('OFF-BI-10000605','Acco Pressboard Covers with Storage Hooks, 9 1/2" x 11", Executive Red','Office Supplies','Binders'),
 	 ('OFF-BI-10000632','Satellite Sectional Post Binders','Office Supplies','Binders'),
@@ -748,7 +748,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10000822','Acco PRESSTEX Data Binder with Storage Hooks, Light Blue, 9 1/2" X 11"','Office Supplies','Binders'),
 	 ('OFF-BI-10000829','Avery Non-Stick Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10000831','Storex Flexible Poly Binders with Double Pockets','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10000848','Angle-D Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10000948','GBC Laser Imprintable Binding System Covers, Desert Sand','Office Supplies','Binders'),
 	 ('OFF-BI-10000962','Acco Flexible ACCOHIDE Square Ring Data Binder, Dark Blue, 11 1/2" X 14" 7/8"','Office Supplies','Binders'),
@@ -759,7 +759,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10001072','GBC Clear Cover, 8-1/2 x 11, unpunched, 25 covers per pack','Office Supplies','Binders'),
 	 ('OFF-BI-10001078','Acco PRESSTEX Data Binder with Storage Hooks, Dark Blue, 14 7/8" X 11"','Office Supplies','Binders'),
 	 ('OFF-BI-10001097','Avery Hole Reinforcements','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10001098','Acco D-Ring Binder w/DublLock','Office Supplies','Binders'),
 	 ('OFF-BI-10001107','GBC White Gloss Covers, Plain Front','Office Supplies','Binders'),
 	 ('OFF-BI-10001116','Wilson Jones 1" Hanging DublLock Ring Binders','Office Supplies','Binders'),
@@ -770,7 +770,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10001196','Avery Flip-Chart Easel Binder, Black','Office Supplies','Binders'),
 	 ('OFF-BI-10001249','Avery Heavy-Duty EZD View Binder with Locking Rings','Office Supplies','Binders'),
 	 ('OFF-BI-10001267','Universal Recycled Hanging Pressboard Report Binders, Letter Size','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10001294','Fellowes Binding Cases','Office Supplies','Binders'),
 	 ('OFF-BI-10001308','GBC Standard Plastic Binding Systems'' Combs','Office Supplies','Binders'),
 	 ('OFF-BI-10001359','GBC DocuBind TL300 Electric Binding System','Office Supplies','Binders'),
@@ -781,7 +781,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10001543','GBC VeloBinder Manual Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10001553','SpineVue Locking Slant-D Ring Binders by Cardinal','Office Supplies','Binders'),
 	 ('OFF-BI-10001575','GBC Linen Binding Covers','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10001597','Wilson Jones Ledger-Size, Piano-Hinge Binder, 2", Blue','Office Supplies','Binders'),
 	 ('OFF-BI-10001617','GBC Wire Binding Combs','Office Supplies','Binders'),
 	 ('OFF-BI-10001628','Acco Data Flex Cable Posts For Top & Bottom Load Binders, 6" Capacity','Office Supplies','Binders'),
@@ -792,7 +792,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10001679','GBC Instant Index System for Binding Systems','Office Supplies','Binders'),
 	 ('OFF-BI-10001718','GBC DocuBind P50 Personal Binding Machine','Office Supplies','Binders'),
 	 ('OFF-BI-10001721','Trimflex Flexible Post Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10001757','Pressboard Hanging Data Binders for Unburst Sheets','Office Supplies','Binders'),
 	 ('OFF-BI-10001758','Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10001759','Acco Pressboard Covers with Storage Hooks, 14 7/8" x 11", Dark Blue','Office Supplies','Binders'),
@@ -803,7 +803,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10001922','Storex Dura Pro Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10001982','Wilson Jones Custom Binder Spines & Labels','Office Supplies','Binders'),
 	 ('OFF-BI-10001989','Premium Transparent Presentation Covers by GBC','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10002003','Ibico Presentation Index for Binding Systems','Office Supplies','Binders'),
 	 ('OFF-BI-10002012','Wilson Jones Easy Flow II Sheet Lifters','Office Supplies','Binders'),
 	 ('OFF-BI-10002026','Ibico Recycled Linen-Style Covers','Office Supplies','Binders'),
@@ -814,7 +814,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10002103','Cardinal Slant-D Ring Binder, Heavy Gauge Vinyl','Office Supplies','Binders'),
 	 ('OFF-BI-10002133','Wilson Jones Elliptical Ring 3 1/2" Capacity Binders, 800 sheets','Office Supplies','Binders'),
 	 ('OFF-BI-10002160','Acco Hanging Data Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10002194','Cardinal Hold-It CD Pocket','Office Supplies','Binders'),
 	 ('OFF-BI-10002215','Wilson Jones Hanging View Binder, White, 1"','Office Supplies','Binders'),
 	 ('OFF-BI-10002225','Square Ring Data Binders, Rigid 75 Pt. Covers, 11" x 14-7/8"','Office Supplies','Binders'),
@@ -825,7 +825,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10002414','GBC ProClick Spines for 32-Hole Punch','Office Supplies','Binders'),
 	 ('OFF-BI-10002429','Premier Elliptical Ring Binder, Black','Office Supplies','Binders'),
 	 ('OFF-BI-10002432','Wilson Jones Standard D-Ring Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10002437','Recycled Premium Regency Composition Covers','Office Supplies','Binders'),
 	 ('OFF-BI-10002498','Clear Mylar Reinforcing Strips','Office Supplies','Binders'),
 	 ('OFF-BI-10002557','Presstex Flexible Ring Binders','Office Supplies','Binders'),
@@ -836,7 +836,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10002764','Recycled Pressboard Report Cover with Reinforced Top Hinge','Office Supplies','Binders'),
 	 ('OFF-BI-10002794','Avery Trapezoid Ring Binder, 3" Capacity, Black, 1040 sheets','Office Supplies','Binders'),
 	 ('OFF-BI-10002799','SlimView Poly Binder, 3/8"','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10002813','Avery Reinforcements for Hole-Punch Pages','Office Supplies','Binders'),
 	 ('OFF-BI-10002824','Recycled Easel Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10002827','Avery Durable Poly Binders','Office Supplies','Binders'),
@@ -847,7 +847,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10002931','Avery Trapezoid Extra Heavy Duty 4" Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10002949','Prestige Round Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10002954','Newell 3-Hole Punched Plastic Slotted Magazine Holders for Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10002976','ACCOHIDE Binder by Acco','Office Supplies','Binders'),
 	 ('OFF-BI-10002982','Avery Self-Adhesive Photo Pockets for Polaroid Photos','Office Supplies','Binders'),
 	 ('OFF-BI-10003007','Premium Transparent Presentation Covers, No Pattern/Clear, 8 1/2" x 11"','Office Supplies','Binders'),
@@ -858,7 +858,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10003274','Avery Durable Slant Ring Binders, No Labels','Office Supplies','Binders'),
 	 ('OFF-BI-10003291','Wilson Jones Leather-Like Binders with DublLock Round Rings','Office Supplies','Binders'),
 	 ('OFF-BI-10003305','Avery Hanging File Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10003314','Tuff Stuff Recycled Round Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003350','Acco Expandable Hanging Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003355','Cardinal Holdit Business Card Pockets','Office Supplies','Binders'),
@@ -869,7 +869,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10003527','Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind','Office Supplies','Binders'),
 	 ('OFF-BI-10003529','Avery Round Ring Poly Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003638','GBC Durable Plastic Covers','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10003650','GBC DocuBind 300 Electric Binding Machine','Office Supplies','Binders'),
 	 ('OFF-BI-10003655','Durable Pressboard Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003656','Fellowes PB200 Plastic Comb Binding Machine','Office Supplies','Binders'),
@@ -880,7 +880,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10003707','Aluminum Screw Posts','Office Supplies','Binders'),
 	 ('OFF-BI-10003708','Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1"','Office Supplies','Binders'),
 	 ('OFF-BI-10003712','Acco Pressboard Covers with Storage Hooks, 14 7/8" x 11", Light Blue','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10003718','GBC Therma-A-Bind 250T Electric Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10003719','Large Capacity Hanging Post Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003727','Avery Durable Slant Ring Binders With Label Holder','Office Supplies','Binders'),
@@ -891,7 +891,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10003963','Cardinal Holdit Data Disk Pockets','Office Supplies','Binders'),
 	 ('OFF-BI-10003981','Avery Durable Plastic 1" Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10003982','Wilson Jones Century Plastic Molded Ring Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10004001','GBC Recycled VeloBinder Covers','Office Supplies','Binders'),
 	 ('OFF-BI-10004002','Wilson Jones International Size A4 Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004022','Acco Suede Grain Vinyl Round Ring Binder','Office Supplies','Binders'),
@@ -902,7 +902,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10004140','Avery Non-Stick Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004141','Insertable Tab Indexes For Data Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004182','Economy Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10004187','3-ring staple pack','Office Supplies','Binders'),
 	 ('OFF-BI-10004209','Fellowes Twister Kit, Gray/Clear, 3/pkg','Office Supplies','Binders'),
 	 ('OFF-BI-10004224','Catalog Binders with Expanding Posts','Office Supplies','Binders'),
@@ -913,7 +913,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10004318','Ibico EB-19 Dual Function Manual Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10004330','GBC Velobind Prepunched Cover Sets, Regency Series','Office Supplies','Binders'),
 	 ('OFF-BI-10004352','Wilson Jones DublLock D-Ring Binders','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10004364','Storex Dura Pro Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004390','GBC DocuBind 200 Manual Binding Machine','Office Supplies','Binders'),
 	 ('OFF-BI-10004410','C-Line Peel & Stick Add-On Filing Pockets, 8-3/4 x 5-1/8, 10/Pack','Office Supplies','Binders'),
@@ -924,7 +924,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10004528','Cardinal Poly Pocket Divider Pockets for Ring Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004584','GBC ProClick 150 Presentation Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10004593','Ibico Laser Imprintable Binding System Covers','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10004600','Ibico Ibimaster 300 Manual Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10004632','Ibico Hi-Tech Manual Binding System','Office Supplies','Binders'),
 	 ('OFF-BI-10004654','VariCap6 Expandable Binder','Office Supplies','Binders'),
@@ -935,7 +935,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-BI-10004781','GBC Wire Binding Strips','Office Supplies','Binders'),
 	 ('OFF-BI-10004817','GBC Personal VeloBind Strips','Office Supplies','Binders'),
 	 ('OFF-BI-10004826','JM Magazine Binder','Office Supplies','Binders');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-BI-10004828','GBC Poly Designer Binding Covers','Office Supplies','Binders'),
 	 ('OFF-BI-10004876','Wilson Jones Suede Grain Vinyl Binders','Office Supplies','Binders'),
 	 ('OFF-BI-10004965','Ibico Covers for Plastic or Wire Binding Elements','Office Supplies','Binders'),
@@ -946,7 +946,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10000461','#10- 4 1/8" x 9 1/2" Recycled Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10000483','White Envelopes, White Envelopes with Clear Poly Window','Office Supplies','Envelopes'),
 	 ('OFF-EN-10000781','#10- 4 1/8" x 9 1/2" Recycled Envelopes','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-EN-10000927','Jet-Pak Recycled Peel ''N'' Seal Padded Mailers','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001028','Staple envelope','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001099','Staple envelope','Office Supplies','Envelopes'),
@@ -957,7 +957,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10001415','Staple envelope','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001434','Strathmore #10 Envelopes, Ultimate White','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001453','Tyvek Interoffice Envelopes, 9 1/2" x 12 1/2", 100/Box','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-EN-10001509','Poly String Tie Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001532','Brown Kraft Recycled Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10001535','Grip Seal Envelopes','Office Supplies','Envelopes'),
@@ -968,7 +968,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10002312','#10 Self-Seal White Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10002500','Globe Weis Peel & Seel First Class Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10002504','Tyvek  Top-Opening Peel & Seel Envelopes, Plain White','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-EN-10002592','Peel & Seel Recycled Catalog Envelopes, Brown','Office Supplies','Envelopes'),
 	 ('OFF-EN-10002600','Redi-Strip #10 Envelopes, 4 1/8 x 9 1/2','Office Supplies','Envelopes'),
 	 ('OFF-EN-10002621','Staple envelope','Office Supplies','Envelopes'),
@@ -979,7 +979,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10003040','Quality Park Security Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003055','Blue String-Tie & Button Interoffice Envelopes, 10 x 13','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003068','#6 3/4 Gummed Flap White Envelopes','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-EN-10003072','Peel & Seel Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003134','Staple envelope','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003160','Pastel Pink Envelopes','Office Supplies','Envelopes'),
@@ -990,7 +990,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10003798','Recycled Interoffice Envelopes with Re-Use-A-Seal Closure, 10 x 13','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003845','Colored Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10003862','Laser & Ink Jet Business Envelopes','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-EN-10004007','Park Ridge Embossed Executive Business Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10004030','Convenience Packs of Business Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10004147','Wausau Papers Astrobrights Colored Envelopes','Office Supplies','Envelopes'),
@@ -1001,7 +1001,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-EN-10004773','Staple envelope','Office Supplies','Envelopes'),
 	 ('OFF-EN-10004846','Letter or Legal Size Expandable Poly String Tie Envelopes','Office Supplies','Envelopes'),
 	 ('OFF-EN-10004955','Fashion Color Clasp Envelopes','Office Supplies','Envelopes');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-FA-10000053','Revere Boxed Rubber Bands by Revere','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000089','Acco Glide Clips','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000134','Advantus Push Pins, Aluminum Head','Office Supplies','Fasteners'),
@@ -1012,7 +1012,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-FA-10000611','Binder Clips by OIC','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000621','OIC Colored Binder Clips, Assorted Sizes','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000624','OIC Binder Clips','Office Supplies','Fasteners');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-FA-10000735','Staples','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000840','OIC Thumb-Tacks','Office Supplies','Fasteners'),
 	 ('OFF-FA-10000936','Acco Hot Clips Clips to Go','Office Supplies','Fasteners'),
@@ -1023,7 +1023,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-FA-10001561','Stockwell Push Pins','Office Supplies','Fasteners'),
 	 ('OFF-FA-10001754','Stockwell Gold Paper Clips','Office Supplies','Fasteners'),
 	 ('OFF-FA-10001843','Staples','Office Supplies','Fasteners');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-FA-10001883','Alliance Super-Size Bands, Assorted Sizes','Office Supplies','Fasteners'),
 	 ('OFF-FA-10002280','Advantus Plastic Paper Clips','Office Supplies','Fasteners'),
 	 ('OFF-FA-10002676','Colored Push Pins','Office Supplies','Fasteners'),
@@ -1034,7 +1034,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-FA-10002975','Staples','Office Supplies','Fasteners'),
 	 ('OFF-FA-10002983','Advantus SlideClip Paper Clips','Office Supplies','Fasteners'),
 	 ('OFF-FA-10002988','Ideal Clamps','Office Supplies','Fasteners');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-FA-10003021','Staples','Office Supplies','Fasteners'),
 	 ('OFF-FA-10003059','Assorted Color Push Pins','Office Supplies','Fasteners'),
 	 ('OFF-FA-10003112','Staples','Office Supplies','Fasteners'),
@@ -1045,7 +1045,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-FA-10004076','Translucent Push Pins by OIC','Office Supplies','Fasteners'),
 	 ('OFF-FA-10004248','Advantus T-Pin Paper Clips','Office Supplies','Fasteners'),
 	 ('OFF-FA-10004395','Plymouth Boxed Rubber Bands by Plymouth','Office Supplies','Fasteners');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-FA-10004838','Super Bands, 12/Pack','Office Supplies','Fasteners'),
 	 ('OFF-FA-10004854','Vinyl Coated Wire Paper Clips in Organizer Box, 800/Box','Office Supplies','Fasteners'),
 	 ('OFF-FA-10004968','Rubber Band Ball','Office Supplies','Fasteners'),
@@ -1056,7 +1056,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10000248','Avery 52','Office Supplies','Labels'),
 	 ('OFF-LA-10000262','Avery 494','Office Supplies','Labels'),
 	 ('OFF-LA-10000305','Avery 495','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10000407','Avery White Multi-Purpose Labels','Office Supplies','Labels'),
 	 ('OFF-LA-10000414','Avery 503','Office Supplies','Labels'),
 	 ('OFF-LA-10000443','Avery 501','Office Supplies','Labels'),
@@ -1067,7 +1067,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10001045','Permanent Self-Adhesive File Folder Labels for Typewriters by Universal','Office Supplies','Labels'),
 	 ('OFF-LA-10001074','Round Specialty Laser Printer Labels','Office Supplies','Labels'),
 	 ('OFF-LA-10001158','Avery Address/Shipping Labels for Typewriters, 4" x 2"','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10001175','Avery 514','Office Supplies','Labels'),
 	 ('OFF-LA-10001297','Avery 473','Office Supplies','Labels'),
 	 ('OFF-LA-10001317','Avery 520','Office Supplies','Labels'),
@@ -1078,7 +1078,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10001641','Avery 518','Office Supplies','Labels'),
 	 ('OFF-LA-10001771','Avery 513','Office Supplies','Labels'),
 	 ('OFF-LA-10001934','Avery 516','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10001982','Smead Alpha-Z Color-Coded Name Labels First Letter Starter Set','Office Supplies','Labels'),
 	 ('OFF-LA-10002034','Avery 478','Office Supplies','Labels'),
 	 ('OFF-LA-10002043','Avery 489','Office Supplies','Labels'),
@@ -1089,7 +1089,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10002381','Avery 497','Office Supplies','Labels'),
 	 ('OFF-LA-10002473','Avery 484','Office Supplies','Labels'),
 	 ('OFF-LA-10002475','Avery 519','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10002762','Avery 485','Office Supplies','Labels'),
 	 ('OFF-LA-10002787','Avery 480','Office Supplies','Labels'),
 	 ('OFF-LA-10002945','Permanent Self-Adhesive File Folder Labels for Typewriters, 1 1/8 x 3 1/2, White','Office Supplies','Labels'),
@@ -1100,7 +1100,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10003223','Avery 508','Office Supplies','Labels'),
 	 ('OFF-LA-10003388','Avery 5','Office Supplies','Labels'),
 	 ('OFF-LA-10003498','Avery 475','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10003510','Avery 4027 File Folder Labels for Dot Matrix Printers, 5000 Labels per Box, White','Office Supplies','Labels'),
 	 ('OFF-LA-10003537','Avery 515','Office Supplies','Labels'),
 	 ('OFF-LA-10003663','Avery 498','Office Supplies','Labels'),
@@ -1111,7 +1111,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10003930','Dot Matrix Printer Tape Reel Labels, White, 5000/Box','Office Supplies','Labels'),
 	 ('OFF-LA-10004008','Avery 507','Office Supplies','Labels'),
 	 ('OFF-LA-10004055','Color-Coded Legal Exhibit Labels','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10004093','Avery 486','Office Supplies','Labels'),
 	 ('OFF-LA-10004178','Avery 491','Office Supplies','Labels'),
 	 ('OFF-LA-10004272','Avery 482','Office Supplies','Labels'),
@@ -1122,7 +1122,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-LA-10004544','Avery 505','Office Supplies','Labels'),
 	 ('OFF-LA-10004545','Avery 50','Office Supplies','Labels'),
 	 ('OFF-LA-10004559','Avery 49','Office Supplies','Labels');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-LA-10004677','Self-Adhesive Address Labels for Typewriters with Dispenser Box','Office Supplies','Labels'),
 	 ('OFF-LA-10004689','Avery 512','Office Supplies','Labels'),
 	 ('OFF-LA-10004853','Avery 483','Office Supplies','Labels'),
@@ -1133,7 +1133,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000061','Xerox 205','Office Supplies','Paper'),
 	 ('OFF-PA-10000062','Green Bar Computer Printout Paper','Office Supplies','Paper'),
 	 ('OFF-PA-10000069','TOPS 4 x 6 Fluorescent Color Memo Sheets, 500 Sheets per Pack','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000100','Xerox 1945','Office Supplies','Paper'),
 	 ('OFF-PA-10000130','Xerox 199','Office Supplies','Paper'),
 	 ('OFF-PA-10000141','Ampad Evidence Wirebond Steno Books, 6" x 9"','Office Supplies','Paper'),
@@ -1144,7 +1144,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000176','Xerox 1887','Office Supplies','Paper'),
 	 ('OFF-PA-10000210','Xerox Blank Computer Paper','Office Supplies','Paper'),
 	 ('OFF-PA-10000213','Xerox 198','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000223','Xerox 2000','Office Supplies','Paper'),
 	 ('OFF-PA-10000232','Xerox 1975','Office Supplies','Paper'),
 	 ('OFF-PA-10000241','IBM Multi-Purpose Copy Paper, 8 1/2 x 11", Case','Office Supplies','Paper'),
@@ -1155,7 +1155,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000300','Xerox 1936','Office Supplies','Paper'),
 	 ('OFF-PA-10000304','Xerox 1995','Office Supplies','Paper'),
 	 ('OFF-PA-10000308','Xerox 1901','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000312','Xerox 1955','Office Supplies','Paper'),
 	 ('OFF-PA-10000327','Xerox 1971','Office Supplies','Paper'),
 	 ('OFF-PA-10000349','Easy-staple paper','Office Supplies','Paper'),
@@ -1166,7 +1166,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000466','Memo Book, 100 Message Capacity, 5 3/8” x 11”','Office Supplies','Paper'),
 	 ('OFF-PA-10000474','Easy-staple paper','Office Supplies','Paper'),
 	 ('OFF-PA-10000477','Xerox 22','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000482','Snap-A-Way Black Print Carbonless Ruled Speed Letter, Triplicate','Office Supplies','Paper'),
 	 ('OFF-PA-10000483','Xerox 19','Office Supplies','Paper'),
 	 ('OFF-PA-10000501','Petty Cash Envelope','Office Supplies','Paper'),
@@ -1177,7 +1177,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000552','Xerox 200','Office Supplies','Paper'),
 	 ('OFF-PA-10000556','Xerox 208','Office Supplies','Paper'),
 	 ('OFF-PA-10000565','Easy-staple paper','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000575','Wirebound Message Books, Four 2 3/4 x 5 White Forms per Page','Office Supplies','Paper'),
 	 ('OFF-PA-10000587','Array Parchment Paper, Assorted Colors','Office Supplies','Paper'),
 	 ('OFF-PA-10000595','Xerox 1929','Office Supplies','Paper'),
@@ -1188,7 +1188,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000682','Xerox 1924','Office Supplies','Paper'),
 	 ('OFF-PA-10000697','TOPS Voice Message Log Book, Flash Format','Office Supplies','Paper'),
 	 ('OFF-PA-10000726','Black Print Carbonless Snap-Off Rapid Letter, 8 1/2" x 7"','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000740','Xerox 1982','Office Supplies','Paper'),
 	 ('OFF-PA-10000743','Xerox 1977','Office Supplies','Paper'),
 	 ('OFF-PA-10000788','Xerox 210','Office Supplies','Paper'),
@@ -1199,7 +1199,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10000859','Unpadded Memo Slips','Office Supplies','Paper'),
 	 ('OFF-PA-10000919','Xerox 1918','Office Supplies','Paper'),
 	 ('OFF-PA-10000955','Southworth 25% Cotton Granite Paper & Envelopes','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10000994','Xerox 1915','Office Supplies','Paper'),
 	 ('OFF-PA-10001001','Snap-A-Way Black Print Carbonless Speed Message, No Reply Area, Duplicate','Office Supplies','Paper'),
 	 ('OFF-PA-10001019','Xerox 1884','Office Supplies','Paper'),
@@ -1210,7 +1210,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001184','Xerox 1903','Office Supplies','Paper'),
 	 ('OFF-PA-10001204','Xerox 1972','Office Supplies','Paper'),
 	 ('OFF-PA-10001215','Xerox 1963','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001243','Xerox 1983','Office Supplies','Paper'),
 	 ('OFF-PA-10001246','Xerox 215','Office Supplies','Paper'),
 	 ('OFF-PA-10001260','TOPS Money Receipt Book, Consecutively Numbered in Red,','Office Supplies','Paper'),
@@ -1221,7 +1221,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001295','Computer Printout Paper with Letter-Trim Perforations','Office Supplies','Paper'),
 	 ('OFF-PA-10001307','Important Message Pads, 50 4-1/4 x 5-1/2 Forms per Pad','Office Supplies','Paper'),
 	 ('OFF-PA-10001357','Xerox 1886','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001363','Xerox 1933','Office Supplies','Paper'),
 	 ('OFF-PA-10001450','Rediform S.O.S. Phone Message Books','Office Supplies','Paper'),
 	 ('OFF-PA-10001457','White GlueTop Scratch Pads','Office Supplies','Paper'),
@@ -1232,7 +1232,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001526','Xerox 1949','Office Supplies','Paper'),
 	 ('OFF-PA-10001534','Xerox 230','Office Supplies','Paper'),
 	 ('OFF-PA-10001560','Adams Telephone Message Books, 5 1/4” x 11”','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001569','Xerox 232','Office Supplies','Paper'),
 	 ('OFF-PA-10001583','1/4 Fold Party Design Invitations & White Envelopes, 24 8-1/2" X 11" Cards, 25 Env./Pack','Office Supplies','Paper'),
 	 ('OFF-PA-10001593','Xerox 1947','Office Supplies','Paper'),
@@ -1243,7 +1243,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001667','Great White Multi-Use Recycled Paper (20Lb. and 84 Bright)','Office Supplies','Paper'),
 	 ('OFF-PA-10001685','Easy-staple paper','Office Supplies','Paper'),
 	 ('OFF-PA-10001712','Xerox 1948','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001725','Xerox 1892','Office Supplies','Paper'),
 	 ('OFF-PA-10001736','Xerox 1880','Office Supplies','Paper'),
 	 ('OFF-PA-10001745','Wirebound Message Books, 2 7/8" x 5", 3 Forms per Page','Office Supplies','Paper'),
@@ -1254,7 +1254,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001800','Xerox 220','Office Supplies','Paper'),
 	 ('OFF-PA-10001801','Xerox 193','Office Supplies','Paper'),
 	 ('OFF-PA-10001804','Xerox 195','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001815','Xerox 1885','Office Supplies','Paper'),
 	 ('OFF-PA-10001826','Xerox 207','Office Supplies','Paper'),
 	 ('OFF-PA-10001837','Xerox 1976','Office Supplies','Paper'),
@@ -1265,7 +1265,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001892','Rediform Wirebound "Phone Memo" Message Book, 11 x 5-3/4','Office Supplies','Paper'),
 	 ('OFF-PA-10001934','Xerox 1993','Office Supplies','Paper'),
 	 ('OFF-PA-10001937','Xerox 21','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10001947','Xerox 1974','Office Supplies','Paper'),
 	 ('OFF-PA-10001950','Southworth 25% Cotton Antique Laid Paper & Envelopes','Office Supplies','Paper'),
 	 ('OFF-PA-10001952','Xerox 1902','Office Supplies','Paper'),
@@ -1276,7 +1276,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10001994','Ink Jet Note and Greeting Cards, 8-1/2" x 5-1/2" Card Size','Office Supplies','Paper'),
 	 ('OFF-PA-10002001','Xerox 1984','Office Supplies','Paper'),
 	 ('OFF-PA-10002005','Xerox 225','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10002036','Xerox 1930','Office Supplies','Paper'),
 	 ('OFF-PA-10002105','Xerox 223','Office Supplies','Paper'),
 	 ('OFF-PA-10002109','Wirebound Voice Message Log Book','Office Supplies','Paper'),
@@ -1287,7 +1287,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10002222','Xerox Color Copier Paper, 11" x 17", Ream','Office Supplies','Paper'),
 	 ('OFF-PA-10002230','Xerox 1897','Office Supplies','Paper'),
 	 ('OFF-PA-10002245','Xerox 1895','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10002246','Wirebound Four 2-3/4 x 5 Forms per Page, 400 Sets per Book','Office Supplies','Paper'),
 	 ('OFF-PA-10002250','Things To Do Today Pad','Office Supplies','Paper'),
 	 ('OFF-PA-10002254','Xerox 1883','Office Supplies','Paper'),
@@ -1298,7 +1298,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10002365','Xerox 1967','Office Supplies','Paper'),
 	 ('OFF-PA-10002377','Xerox 1916','Office Supplies','Paper'),
 	 ('OFF-PA-10002421','Embossed Ink Jet Note Cards','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10002464','HP Office Recycled Paper (20Lb. and 87 Bright)','Office Supplies','Paper'),
 	 ('OFF-PA-10002479','Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright)','Office Supplies','Paper'),
 	 ('OFF-PA-10002499','Xerox 1890','Office Supplies','Paper'),
@@ -1309,7 +1309,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10002606','Xerox 1928','Office Supplies','Paper'),
 	 ('OFF-PA-10002615','Ampad Gold Fibre Wirebound Steno Books, 6" x 9", Gregg Ruled','Office Supplies','Paper'),
 	 ('OFF-PA-10002659','Avoid Verbal Orders Carbonless Minifold Book','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10002666','Southworth 25% Cotton Linen-Finish Paper & Envelopes','Office Supplies','Paper'),
 	 ('OFF-PA-10002689','Weyerhaeuser First Choice Laser/Copy Paper (20Lb. and 88 Bright)','Office Supplies','Paper'),
 	 ('OFF-PA-10002709','Xerox 1956','Office Supplies','Paper'),
@@ -1320,7 +1320,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10002764','Easy-staple paper','Office Supplies','Paper'),
 	 ('OFF-PA-10002787','Xerox 227','Office Supplies','Paper'),
 	 ('OFF-PA-10002870','Ampad Phone Message Book, Recycled, 400 Message Capacity, 5 ¾” x 11”','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10002893','Wirebound Service Call Books, 5 1/2" x 4"','Office Supplies','Paper'),
 	 ('OFF-PA-10002923','Xerox 1942','Office Supplies','Paper'),
 	 ('OFF-PA-10002947','Xerox 1923','Office Supplies','Paper'),
@@ -1331,7 +1331,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10003016','Adams "While You Were Out" Message Pads','Office Supplies','Paper'),
 	 ('OFF-PA-10003022','Xerox 1992','Office Supplies','Paper'),
 	 ('OFF-PA-10003036','Black Print Carbonless 8 1/2" x 8 1/4" Rapid Memo Book','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10003039','Xerox 1960','Office Supplies','Paper'),
 	 ('OFF-PA-10003063','EcoTones Memo Sheets','Office Supplies','Paper'),
 	 ('OFF-PA-10003072','Eureka Recycled Copy Paper 8 1/2" x 11", Ream','Office Supplies','Paper'),
@@ -1342,7 +1342,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10003177','Xerox 1999','Office Supplies','Paper'),
 	 ('OFF-PA-10003205','Wirebound Message Forms, Four 2 3/4 x 5 Forms per Page, Pink Paper','Office Supplies','Paper'),
 	 ('OFF-PA-10003228','Xerox 1917','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10003256','Avery Personal Creations Heavyweight Cards','Office Supplies','Paper'),
 	 ('OFF-PA-10003270','Xerox 1954','Office Supplies','Paper'),
 	 ('OFF-PA-10003302','Xerox 1906','Office Supplies','Paper'),
@@ -1353,7 +1353,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10003424','"While you Were Out" Message Book, One Form per Page','Office Supplies','Paper'),
 	 ('OFF-PA-10003441','Xerox 226','Office Supplies','Paper'),
 	 ('OFF-PA-10003465','Xerox 1912','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10003543','Xerox 1985','Office Supplies','Paper'),
 	 ('OFF-PA-10003591','Southworth 100% Cotton The Best Paper','Office Supplies','Paper'),
 	 ('OFF-PA-10003625','Xerox 1979','Office Supplies','Paper'),
@@ -1364,7 +1364,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10003673','Strathmore Photo Mount Cards','Office Supplies','Paper'),
 	 ('OFF-PA-10003724','Wirebound Message Book, 4 per Page','Office Supplies','Paper'),
 	 ('OFF-PA-10003729','Xerox 1998','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10003739','Xerox 1969','Office Supplies','Paper'),
 	 ('OFF-PA-10003790','Xerox 1991','Office Supplies','Paper'),
 	 ('OFF-PA-10003797','Xerox 209','Office Supplies','Paper'),
@@ -1375,7 +1375,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10003892','Xerox 1943','Office Supplies','Paper'),
 	 ('OFF-PA-10003893','Xerox 1962','Office Supplies','Paper'),
 	 ('OFF-PA-10003919','Xerox 1989','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10003936','Xerox 1994','Office Supplies','Paper'),
 	 ('OFF-PA-10003953','Xerox 218','Office Supplies','Paper'),
 	 ('OFF-PA-10003971','Xerox 1965','Office Supplies','Paper'),
@@ -1386,7 +1386,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10004041','It''s Hot Message Books with Stickers, 2 3/4" x 5"','Office Supplies','Paper'),
 	 ('OFF-PA-10004071','Eaton Premium Continuous-Feed Paper, 25% Cotton, Letter Size, White, 1000 Shts/Box','Office Supplies','Paper'),
 	 ('OFF-PA-10004082','Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10004092','Tops Green Bar Computer Printout Paper','Office Supplies','Paper'),
 	 ('OFF-PA-10004100','Xerox 216','Office Supplies','Paper'),
 	 ('OFF-PA-10004101','Xerox 1894','Office Supplies','Paper'),
@@ -1397,7 +1397,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10004255','Xerox 219','Office Supplies','Paper'),
 	 ('OFF-PA-10004285','Xerox 1959','Office Supplies','Paper'),
 	 ('OFF-PA-10004327','Xerox 1911','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10004353','Southworth 25% Cotton Premium Laser Paper and Envelopes','Office Supplies','Paper'),
 	 ('OFF-PA-10004355','Xerox 231','Office Supplies','Paper'),
 	 ('OFF-PA-10004359','Multicolor Computer Printout Paper','Office Supplies','Paper'),
@@ -1408,7 +1408,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10004470','Adams Write n'' Stick Phone Message Book, 11" X 5 1/4", 200 Messages','Office Supplies','Paper'),
 	 ('OFF-PA-10004475','Xerox 1940','Office Supplies','Paper'),
 	 ('OFF-PA-10004519','Spiral Phone Message Books with Labels by Adams','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10004530','Personal Creations Ink Jet Cards and Labels','Office Supplies','Paper'),
 	 ('OFF-PA-10004569','Wirebound Message Books, Two 4 1/4" x 5" Forms per Page','Office Supplies','Paper'),
 	 ('OFF-PA-10004609','Xerox 221','Office Supplies','Paper'),
@@ -1419,7 +1419,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10004733','Things To Do Today Spiral Book','Office Supplies','Paper'),
 	 ('OFF-PA-10004734','Southworth Structures Collection','Office Supplies','Paper'),
 	 ('OFF-PA-10004735','Xerox 1905','Office Supplies','Paper');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-PA-10004782','Xerox 228','Office Supplies','Paper'),
 	 ('OFF-PA-10004888','Xerox 217','Office Supplies','Paper'),
 	 ('OFF-PA-10004911','Rediform S.O.S. 1-Up Phone Message Bk, 4-1/4x3-1/16 Bk, 1 Form/Pg, 40 Messages/Bk, 3/Pk','Office Supplies','Paper'),
@@ -1430,7 +1430,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-PA-10004983','Xerox 23','Office Supplies','Paper'),
 	 ('OFF-PA-10004996','Speediset Carbonless Redi-Letter 7" x 8 1/2"','Office Supplies','Paper'),
 	 ('OFF-ST-10000025','Fellowes Stor/Drawer Steel Plus Storage Drawers','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10000036','Recycled Data-Pak for Archival Bound Computer Printouts, 12-1/2 x 12-1/2 x 16','Office Supplies','Storage'),
 	 ('OFF-ST-10000046','Fellowes Super Stor/Drawer Files','Office Supplies','Storage'),
 	 ('OFF-ST-10000060','Fellowes Bankers Box Staxonsteel Drawer File/Stacking System','Office Supplies','Storage'),
@@ -1441,7 +1441,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10000142','Deluxe Rollaway Locking File with Drawer','Office Supplies','Storage'),
 	 ('OFF-ST-10000321','Akro Stacking Bins','Office Supplies','Storage'),
 	 ('OFF-ST-10000344','Neat Ideas Personal Hanging Folder Files, Black','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10000352','Acco Perma 2700 Stacking Storage Drawers','Office Supplies','Storage'),
 	 ('OFF-ST-10000419','Rogers Jumbo File, Granite','Office Supplies','Storage'),
 	 ('OFF-ST-10000464','Multi-Use Personal File Cart and Caster Set, Three Stacking Bins','Office Supplies','Storage'),
@@ -1452,7 +1452,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10000615','SimpliFile Personal File, Black Granite, 15w x 6-15/16d x 11-1/4h','Office Supplies','Storage'),
 	 ('OFF-ST-10000617','Woodgrain Magazine Files by Perma','Office Supplies','Storage'),
 	 ('OFF-ST-10000636','Rogers Profile Extra Capacity Storage Tub','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10000642','Tennsco Lockers, Gray','Office Supplies','Storage'),
 	 ('OFF-ST-10000649','Hanging Personal Folder File','Office Supplies','Storage'),
 	 ('OFF-ST-10000675','File Shuttle II and Handi-File, Black','Office Supplies','Storage'),
@@ -1463,7 +1463,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10000777','Companion Letter/Legal File, Black','Office Supplies','Storage'),
 	 ('OFF-ST-10000798','2300 Heavy-Duty Transfer File Systems by Perma','Office Supplies','Storage'),
 	 ('OFF-ST-10000876','Eldon Simplefile Box Office','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10000877','Recycled Steel Personal File for Standard File Folders','Office Supplies','Storage'),
 	 ('OFF-ST-10000885','Fellowes Desktop Hanging File Manager','Office Supplies','Storage'),
 	 ('OFF-ST-10000918','Crate-A-Files','Office Supplies','Storage'),
@@ -1474,7 +1474,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10001034','Eldon File Chest Portable File','Office Supplies','Storage'),
 	 ('OFF-ST-10001097','Office Impressions Heavy Duty Welded Shelving & Multimedia Storage Drawers','Office Supplies','Storage'),
 	 ('OFF-ST-10001128','Carina Mini System Audio Rack, Model AR050B','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10001172','Tennsco Lockers, Sand','Office Supplies','Storage'),
 	 ('OFF-ST-10001228','Personal File Boxes with Fold-Down Carry Handle','Office Supplies','Storage'),
 	 ('OFF-ST-10001272','Mini 13-1/2 Capacity Data Binder Rack, Pearl','Office Supplies','Storage'),
@@ -1485,7 +1485,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10001370','Sensible Storage WireTech Storage Systems','Office Supplies','Storage'),
 	 ('OFF-ST-10001414','Decoflex Hanging Personal Folder File','Office Supplies','Storage'),
 	 ('OFF-ST-10001418','Carina Media Storage Towers in Natural & Black','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10001469','Fellowes Bankers Box Recycled Super Stor/Drawer','Office Supplies','Storage'),
 	 ('OFF-ST-10001476','Steel Personal Filing/Posting Tote','Office Supplies','Storage'),
 	 ('OFF-ST-10001490','Hot File 7-Pocket, Floor Stand','Office Supplies','Storage'),
@@ -1496,7 +1496,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10001526','Iceberg Mobile Mega Data/Printer Cart','Office Supplies','Storage'),
 	 ('OFF-ST-10001558','Acco Perma 4000 Stacking Storage Drawers','Office Supplies','Storage'),
 	 ('OFF-ST-10001580','Super Decoflex Portable Personal File','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10001590','Tenex Personal Project File with Scoop Front Design, Black','Office Supplies','Storage'),
 	 ('OFF-ST-10001627','Eldon Jumbo ProFile Portable File Boxes Graphite/Black','Office Supplies','Storage'),
 	 ('OFF-ST-10001713','Gould Plastics 9-Pocket Panel Bin, 18-3/8w x 5-1/4d x 20-1/2h, Black','Office Supplies','Storage'),
@@ -1507,7 +1507,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10001963','Tennsco Regal Shelving Units','Office Supplies','Storage'),
 	 ('OFF-ST-10002011','Smead Adjustable Mobile File Trolley with Lockable Top','Office Supplies','Storage'),
 	 ('OFF-ST-10002182','Iris 3-Drawer Stacking Bin, Black','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10002205','File Shuttle I and Handi-File','Office Supplies','Storage'),
 	 ('OFF-ST-10002214','X-Rack File for Hanging Folders','Office Supplies','Storage'),
 	 ('OFF-ST-10002276','Safco Steel Mobile File Cart','Office Supplies','Storage'),
@@ -1518,7 +1518,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10002352','Iris Project Case','Office Supplies','Storage'),
 	 ('OFF-ST-10002370','Sortfiler Multipurpose Personal File Organizer, Black','Office Supplies','Storage'),
 	 ('OFF-ST-10002406','Pizazz Global Quick File','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10002444','Recycled Eldon Regeneration Jumbo File','Office Supplies','Storage'),
 	 ('OFF-ST-10002485','Rogers Deluxe File Chest','Office Supplies','Storage'),
 	 ('OFF-ST-10002486','Eldon Shelf Savers Cubes and Bins','Office Supplies','Storage'),
@@ -1529,7 +1529,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10002615','Dual Level, Single-Width Filing Carts','Office Supplies','Storage'),
 	 ('OFF-ST-10002743','SAFCO Boltless Steel Shelving','Office Supplies','Storage'),
 	 ('OFF-ST-10002756','Tennsco Stur-D-Stor Boltless Shelving, 5 Shelves, 24" Deep, Sand','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10002790','Safco Industrial Shelving','Office Supplies','Storage'),
 	 ('OFF-ST-10002957','Sterilite Show Offs Storage Containers','Office Supplies','Storage'),
 	 ('OFF-ST-10002974','Trav-L-File Heavy-Duty Shuttle II, Black','Office Supplies','Storage'),
@@ -1540,7 +1540,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10003282','Advantus 10-Drawer Portable Organizer, Chrome Metal Frame, Smoke Drawers','Office Supplies','Storage'),
 	 ('OFF-ST-10003306','Letter Size Cart','Office Supplies','Storage'),
 	 ('OFF-ST-10003324','Belkin OmniView SE Rackmount Kit','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10003327','Akro-Mils 12-Gallon Tote','Office Supplies','Storage'),
 	 ('OFF-ST-10003442','Eldon Portable Mobile Manager','Office Supplies','Storage'),
 	 ('OFF-ST-10003455','Tenex File Box, Personal Filing Tote with Lid, Black','Office Supplies','Storage'),
@@ -1551,7 +1551,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10003641','Space Solutions Industrial Galvanized Steel Shelving.','Office Supplies','Storage'),
 	 ('OFF-ST-10003656','Safco Industrial Wire Shelving','Office Supplies','Storage'),
 	 ('OFF-ST-10003692','Recycled Steel Personal File for Hanging File Folders','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10003716','Tennsco Double-Tier Lockers','Office Supplies','Storage'),
 	 ('OFF-ST-10003722','Project Tote Personal File','Office Supplies','Storage'),
 	 ('OFF-ST-10003805','24 Capacity Maxi Data Binder Racks, Pearl','Office Supplies','Storage'),
@@ -1562,7 +1562,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10004180','Safco Commercial Shelving','Office Supplies','Storage'),
 	 ('OFF-ST-10004186','Stur-D-Stor Shelving, Vertical 5-Shelf: 72"H x 36"W x 18 1/2"D','Office Supplies','Storage'),
 	 ('OFF-ST-10004258','Portable Personal File Box','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-ST-10004337','SAFCO Commercial Wire Shelving, 72h','Office Supplies','Storage'),
 	 ('OFF-ST-10004340','Fellowes Mobile File Cart, Black','Office Supplies','Storage'),
 	 ('OFF-ST-10004459','Tennsco Single-Tier Lockers','Office Supplies','Storage'),
@@ -1573,7 +1573,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-ST-10004946','Desktop 3-Pocket Hot File','Office Supplies','Storage'),
 	 ('OFF-ST-10004950','Tenex Personal Filing Tote With Secure Closure Lid, Black/Frost','Office Supplies','Storage'),
 	 ('OFF-ST-10004963','Eldon Gobal File Keepers','Office Supplies','Storage');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-SU-10000151','High Speed Automatic Electric Letter Opener','Office Supplies','Supplies'),
 	 ('OFF-SU-10000157','Compact Automatic Electric Letter Opener','Office Supplies','Supplies'),
 	 ('OFF-SU-10000381','Acme Forged Steel Scissors with Black Enamel Handles','Office Supplies','Supplies'),
@@ -1584,7 +1584,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-SU-10000952','Fiskars Home & Office Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10001165','Acme Elite Stainless Steel Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10001212','Kleencut Forged Office Shears by Acme United Corporation','Office Supplies','Supplies');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-SU-10001218','Fiskars Softgrip Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10001225','Staple remover','Office Supplies','Supplies'),
 	 ('OFF-SU-10001574','Acme Value Line Scissors','Office Supplies','Supplies'),
@@ -1595,7 +1595,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-SU-10002503','Acme Preferred Stainless Steel Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10002522','Acme Kleen Earth Office Shears','Office Supplies','Supplies'),
 	 ('OFF-SU-10002537','Acme Box Cutter Scissors','Office Supplies','Supplies');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-SU-10002557','Fiskars Spring-Action Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10002573','Acme 10" Easy Grip Assistive Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10002881','Martin Yale Chadless Opener Electric Letter Opener','Office Supplies','Supplies'),
@@ -1606,7 +1606,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-SU-10004115','Acme Stainless Steel Office Snips','Office Supplies','Supplies'),
 	 ('OFF-SU-10004231','Acme Tagit Stainless Steel Antibacterial Scissors','Office Supplies','Supplies'),
 	 ('OFF-SU-10004261','Fiskars 8" Scissors, 2/Pack','Office Supplies','Supplies');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('OFF-SU-10004290','Acme Design Line 8" Stainless Steel Bent Scissors w/Champagne Handles, 3-1/8" Cut','Office Supplies','Supplies'),
 	 ('OFF-SU-10004498','Martin-Yale Premier Letter Opener','Office Supplies','Supplies'),
 	 ('OFF-SU-10004661','Acme Titanium Bonded Scissors','Office Supplies','Supplies'),
@@ -1617,7 +1617,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('OFF-SU-10004884','Acme Galleria Hot Forged Steel Scissors with Colored Handles','Office Supplies','Supplies'),
 	 ('TEC-AC-10000023','Maxell 74 Minute CD-R Spindle, 50/Pack','Technology','Accessories'),
 	 ('TEC-AC-10000057','Microsoft Natural Ergonomic Keyboard 4000','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10000109','Sony Micro Vault Click 16 GB USB 2.0 Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10000158','Sony 64GB Class 10 Micro SDHC R40 Memory Card','Technology','Accessories'),
 	 ('TEC-AC-10000171','Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 25/Pack','Technology','Accessories'),
@@ -1628,7 +1628,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10000387','KeyTronic KT800P2 - Keyboard - Black','Technology','Accessories'),
 	 ('TEC-AC-10000397','Perixx PERIBOARD-512B, Ergonomic Split Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10000420','Logitech G500s Laser Gaming Mouse with Adjustable Weight Tuning','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10000474','Kensington Expert Mouse Optical USB Trackball for PC or Mac','Technology','Accessories'),
 	 ('TEC-AC-10000487','SanDisk Cruzer 4 GB USB Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10000521','Verbatim Slim CD and DVD Storage Cases, 50/Pack','Technology','Accessories'),
@@ -1639,7 +1639,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10000844','Logitech Gaming G510s - Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10000865','WD My Passport Ultra 500GB Portable External Hard Drive','Technology','Accessories'),
 	 ('TEC-AC-10000892','NETGEAR N750 Dual Band Wi-Fi Gigabit Router','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10000926','NETGEAR RangeMax WNR1000 Wireless Router','Technology','Accessories'),
 	 ('TEC-AC-10000927','Anker Ultrathin Bluetooth Wireless Keyboard Aluminum Cover with Stand','Technology','Accessories'),
 	 ('TEC-AC-10000990','Imation Bio 2GB USB Flash Drive Imation Corp','Technology','Accessories'),
@@ -1650,7 +1650,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10001109','Logitech Trackman Marble Mouse','Technology','Accessories'),
 	 ('TEC-AC-10001114','Microsoft Wireless Mobile Mouse 4000','Technology','Accessories'),
 	 ('TEC-AC-10001142','First Data FD10 PIN Pad','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10001266','Memorex Micro Travel Drive 8 GB','Technology','Accessories'),
 	 ('TEC-AC-10001267','Imation 32GB Pocket Pro USB 3.0 Flash Drive - 32 GB - Black - 1 P ...','Technology','Accessories'),
 	 ('TEC-AC-10001284','Enermax Briskie RF Wireless Keyboard and Mouse Combo','Technology','Accessories'),
@@ -1661,7 +1661,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10001465','SanDisk Cruzer 64 GB USB Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10001539','Logitech G430 Surround Sound Gaming Headset with Dolby 7.1 Technology','Technology','Accessories'),
 	 ('TEC-AC-10001542','SanDisk Cruzer 16 GB USB Flash Drive','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10001552','Logitech K350 2.4Ghz Wireless Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10001553','Memorex 25GB 6X Branded Blu-Ray Recordable Disc, 15/Pack','Technology','Accessories'),
 	 ('TEC-AC-10001590','Dell Slim USB Multimedia Keyboard','Technology','Accessories'),
@@ -1672,7 +1672,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10001772','Memorex Mini Travel Drive 16 GB USB 2.0 Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10001838','Razer Tiamat Over Ear 7.1 Surround Sound PC Gaming Headset','Technology','Accessories'),
 	 ('TEC-AC-10001874','Logitech Wireless Anywhere Mouse MX for PC and Mac','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10001908','Logitech Wireless Headset h800','Technology','Accessories'),
 	 ('TEC-AC-10001956','Microsoft Arc Touch Mouse','Technology','Accessories'),
 	 ('TEC-AC-10001990','Kensington Orbit Wireless Mobile Trackball for PC and Mac','Technology','Accessories'),
@@ -1683,7 +1683,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10002049','Plantronics Savi W720 Multi-Device Wireless Headset System','Technology','Accessories'),
 	 ('TEC-AC-10002076','Microsoft Natural Keyboard Elite','Technology','Accessories'),
 	 ('TEC-AC-10002134','Rosewill 107 Normal Keys USB Wired Standard Keyboard','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10002167','Imation 8gb Micro Traveldrive Usb 2.0 Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10002217','Imation Clip USB flash drive - 8 GB','Technology','Accessories'),
 	 ('TEC-AC-10002253','Imation Bio 8GB USB Flash Drive Imation Corp','Technology','Accessories'),
@@ -1694,7 +1694,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10002345','HP Standard 104 key PS/2 Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10002370','Maxell CD-R Discs','Technology','Accessories'),
 	 ('TEC-AC-10002380','Sony 8GB Class 10 Micro SDHC R40 Memory Card','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10002399','SanDisk Cruzer 32 GB USB Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10002402','Razer Kraken PRO Over Ear PC and Music Headset','Technology','Accessories'),
 	 ('TEC-AC-10002473','Maxell 4.7GB DVD-R','Technology','Accessories'),
@@ -1705,7 +1705,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10002637','Logitech VX Revolution Cordless Laser Mouse for Notebooks (Black)','Technology','Accessories'),
 	 ('TEC-AC-10002647','Logitech Wireless Boombox Speaker - portable - wireless, wired','Technology','Accessories'),
 	 ('TEC-AC-10002718','Belkin Standard 104 key USB Keyboard','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10002800','Plantronics Audio 478 Stereo USB Headset','Technology','Accessories'),
 	 ('TEC-AC-10002842','WD My Passport Ultra 2TB Portable External Hard Drive','Technology','Accessories'),
 	 ('TEC-AC-10002857','Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 1/Pack','Technology','Accessories'),
@@ -1716,7 +1716,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10003033','Plantronics CS510 - Over-the-Head monaural Wireless Headset System','Technology','Accessories'),
 	 ('TEC-AC-10003038','Kingston Digital DataTraveler 16GB USB 2.0','Technology','Accessories'),
 	 ('TEC-AC-10003063','Micro Innovations USB RF Wireless Keyboard with Mouse','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10003095','Logitech G35 7.1-Channel Surround Sound Headset','Technology','Accessories'),
 	 ('TEC-AC-10003116','Memorex Froggy Flash Drive 8 GB','Technology','Accessories'),
 	 ('TEC-AC-10003133','Memorex Mini Travel Drive 4 GB USB 2.0 Flash Drive','Technology','Accessories'),
@@ -1727,7 +1727,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10003289','Anker Ultra-Slim Mini Bluetooth 3.0 Wireless Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10003399','Memorex Mini Travel Drive 64 GB USB 2.0 Flash Drive','Technology','Accessories'),
 	 ('TEC-AC-10003433','Maxell 4.7GB DVD+R 5/Pack','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10003441','Kingston Digital DataTraveler 32GB USB 2.0','Technology','Accessories'),
 	 ('TEC-AC-10003447','Micropad Numeric Keypads','Technology','Accessories'),
 	 ('TEC-AC-10003499','Memorex Mini Travel Drive 8 GB USB 2.0 Flash Drive','Technology','Accessories'),
@@ -1738,7 +1738,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10003657','Lenovo 17-Key USB Numeric Keypad','Technology','Accessories'),
 	 ('TEC-AC-10003709','Maxell 4.7GB DVD-R 5/Pack','Technology','Accessories'),
 	 ('TEC-AC-10003832','Logitech P710e Mobile Speakerphone','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10003870','Logitech Z-906 Speaker sys - home theater - 5.1-CH','Technology','Accessories'),
 	 ('TEC-AC-10003911','NETGEAR AC1750 Dual Band Gigabit Smart WiFi Router','Technology','Accessories'),
 	 ('TEC-AC-10004001','Logitech Wireless Headset H600 Over-The-Head Design','Technology','Accessories'),
@@ -1749,7 +1749,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10004209','Memorex Froggy Flash Drive 4 GB','Technology','Accessories'),
 	 ('TEC-AC-10004227','SanDisk Ultra 16 GB MicroSDHC Class 10 Memory Card','Technology','Accessories'),
 	 ('TEC-AC-10004353','Hypercom P1300 Pinpad','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10004396','Logitech Keyboard K120','Technology','Accessories'),
 	 ('TEC-AC-10004420','Cherry 142-key Programmable Keyboard','Technology','Accessories'),
 	 ('TEC-AC-10004469','Microsoft Sculpt Comfort Mouse','Technology','Accessories'),
@@ -1760,7 +1760,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10004595','First Data TMFD35 PIN Pad','Technology','Accessories'),
 	 ('TEC-AC-10004633','Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 3/Pack','Technology','Accessories'),
 	 ('TEC-AC-10004659','Imation Secure+ Hardware Encrypted USB 2.0 Flash Drive; 16GB','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10004666','Maxell iVDR EX 500GB Cartridge','Technology','Accessories'),
 	 ('TEC-AC-10004708','Sony 32GB Class 10 Micro SDHC R40 Memory Card','Technology','Accessories'),
 	 ('TEC-AC-10004761','Maxell 4.7GB DVD+RW 3/Pack','Technology','Accessories'),
@@ -1771,7 +1771,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-AC-10004864','Memorex Micro Travel Drive 32 GB','Technology','Accessories'),
 	 ('TEC-AC-10004877','Imation 30456 USB Flash Drive 8GB','Technology','Accessories'),
 	 ('TEC-AC-10004901','Kensington SlimBlade Notebook Wireless Mouse with Nano Receiver','Technology','Accessories');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-AC-10004975','Plantronics Audio 995 Wireless Stereo Headset','Technology','Accessories'),
 	 ('TEC-AC-10004992','Kingston Digital DataTraveler 64GB USB 2.0','Technology','Accessories'),
 	 ('TEC-CO-10000971','Hewlett Packard 310 Color Digital Copier','Technology','Copiers'),
@@ -1782,7 +1782,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-CO-10001943','Canon PC-428 Personal Copier','Technology','Copiers'),
 	 ('TEC-CO-10002095','Hewlett Packard 610 Color Digital Copier / Printer','Technology','Copiers'),
 	 ('TEC-CO-10002313','Canon PC1080F Personal Copier','Technology','Copiers');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-CO-10003236','Canon Image Class D660 Copier','Technology','Copiers'),
 	 ('TEC-CO-10003763','Canon PC1060 Personal Laser Copier','Technology','Copiers'),
 	 ('TEC-CO-10004115','Sharp AL-1530CS Digital Copier','Technology','Copiers'),
@@ -1793,7 +1793,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10000045','Zebra ZM400 Thermal Label Printer','Technology','Machines'),
 	 ('TEC-MA-10000112','Panasonic KX MB2061 Multifunction Printer','Technology','Machines'),
 	 ('TEC-MA-10000418','Cubify CubeX 3D Printer Double Head Print','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10000423','Texas Instruments TI-34 Scientific Calculator','Technology','Machines'),
 	 ('TEC-MA-10000488','Bady BDG101FRU Card Printer','Technology','Machines'),
 	 ('TEC-MA-10000597','Lexmark S315 Color Inkjet Printer','Technology','Machines'),
@@ -1804,7 +1804,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10000984','Okidata MB760 Printer','Technology','Machines'),
 	 ('TEC-MA-10001016','Canon PC170 Desktop Personal Copier','Technology','Machines'),
 	 ('TEC-MA-10001031','Socket Bluetooth Cordless Hand Scanner (CHS)','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10001047','3D Systems Cube Printer, 2nd Generation, Magenta','Technology','Machines'),
 	 ('TEC-MA-10001127','HP Designjet T520 Inkjet Large Format Printer - 24" Color','Technology','Machines'),
 	 ('TEC-MA-10001148','Swingline SM12-08 MicroCut Jam Free Shredder','Technology','Machines'),
@@ -1815,7 +1815,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10001972','Okidata C331dn Printer','Technology','Machines'),
 	 ('TEC-MA-10002073','3D Systems Cube Printer, 2nd Generation, White','Technology','Machines'),
 	 ('TEC-MA-10002109','HP Officejet Pro 8600 e-All-In-One Printer, Copier, Scanner, Fax','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10002178','Cisco CP-7937G Unified IP Conference Station Phone','Technology','Machines'),
 	 ('TEC-MA-10002210','Epson TM-T88V Direct Thermal Printer - Monochrome - Desktop','Technology','Machines'),
 	 ('TEC-MA-10002412','Cisco TelePresence System EX90 Videoconferencing Unit','Technology','Machines'),
@@ -1826,7 +1826,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10002927','Canon imageCLASS MF7460 Monochrome Digital Laser Multifunction Copier','Technology','Machines'),
 	 ('TEC-MA-10002930','Ricoh - Ink Collector Unit for GX3000 Series Printers','Technology','Machines'),
 	 ('TEC-MA-10002937','Canon Color ImageCLASS MF8580Cdw Wireless Laser All-In-One Printer, Copier, Scanner','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10002981','I.R.I.S IRISCard Anywhere 5 Card Scanner','Technology','Machines'),
 	 ('TEC-MA-10003066','Wasp CCD Handheld Bar Code Reader','Technology','Machines'),
 	 ('TEC-MA-10003173','Hewlett-Packard 300S Scientific Calculator','Technology','Machines'),
@@ -1837,7 +1837,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10003329','Vtech AT&T CL2940 Corded Speakerphone, Black','Technology','Machines'),
 	 ('TEC-MA-10003337','Okidata B401 Printer','Technology','Machines'),
 	 ('TEC-MA-10003353','Xerox WorkCentre 6505DN Laser Multifunction Printer','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10003356','Panasonic KX MC6040 Color Laser Multifunction Printer','Technology','Machines'),
 	 ('TEC-MA-10003493','Penpower WorldCard Pro Card Scanner','Technology','Machines'),
 	 ('TEC-MA-10003589','Cisco 8961 IP Phone Charcoal','Technology','Machines'),
@@ -1848,7 +1848,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10004002','Zebra GX420t Direct Thermal/Thermal Transfer Printer','Technology','Machines'),
 	 ('TEC-MA-10004086','Plantronics Single Ear Headset','Technology','Machines'),
 	 ('TEC-MA-10004125','Cubify CubeX 3D Printer Triple Head Print','Technology','Machines');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-MA-10004212','Cisco SPA525G2 5-Line IP Phone','Technology','Machines'),
 	 ('TEC-MA-10004241','Star Micronics TSP800 TSP847IIU Receipt Printer','Technology','Machines'),
 	 ('TEC-MA-10004255','Konica Minolta magicolor 1690MF Multifunction Printer','Technology','Machines'),
@@ -1859,7 +1859,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-MA-10004679','StarTech.com 10/100 VDSL2 Ethernet Extender Kit','Technology','Machines'),
 	 ('TEC-PH-10000004','Belkin iPhone and iPad Lightning Cable','Technology','Phones'),
 	 ('TEC-PH-10000011','PureGear Roll-On Screen Protector','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10000038','Jawbone MINI JAMBOX Wireless Bluetooth Speaker','Technology','Phones'),
 	 ('TEC-PH-10000127','iOttie XL Car Mount','Technology','Phones'),
 	 ('TEC-PH-10000141','Clearsounds A400','Technology','Phones'),
@@ -1870,7 +1870,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10000213','Seidio BD2-HK3IPH5-BK DILEX Case and Holster Combo for Apple iPhone 5/5s - Black','Technology','Phones'),
 	 ('TEC-PH-10000215','Plantronics Cordless Phone Headset with In-line Volume - M214C','Technology','Phones'),
 	 ('TEC-PH-10000307','Shocksock Galaxy S4 Armband','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10000347','Cush Cases Heavy Duty Rugged Cover Case for Samsung Galaxy S5 - Purple','Technology','Phones'),
 	 ('TEC-PH-10000369','HTC One Mini','Technology','Phones'),
 	 ('TEC-PH-10000376','Square Credit Card Reader','Technology','Phones'),
@@ -1881,7 +1881,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10000526','Vtech CS6719','Technology','Phones'),
 	 ('TEC-PH-10000560','Samsung Galaxy S III - 16GB - pebble blue (T-Mobile)','Technology','Phones'),
 	 ('TEC-PH-10000562','Samsung Convoy 3','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10000576','AT&T 1080 Corded phone','Technology','Phones'),
 	 ('TEC-PH-10000586','AT&T SB67148 SynJ','Technology','Phones'),
 	 ('TEC-PH-10000673','Plantronics Voyager Pro HD - Bluetooth Headset','Technology','Phones'),
@@ -1892,7 +1892,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10000912','Anker 24W Portable Micro USB Car Charger','Technology','Phones'),
 	 ('TEC-PH-10000923','Belkin SportFit Armband For iPhone 5s/5c, Fuchsia','Technology','Phones'),
 	 ('TEC-PH-10000984','Panasonic KX-TG9471B','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10001051','HTC One','Technology','Phones'),
 	 ('TEC-PH-10001061','Apple iPhone 5C','Technology','Phones'),
 	 ('TEC-PH-10001079','Polycom SoundPoint Pro SE-225 Corded phone','Technology','Phones'),
@@ -1903,7 +1903,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10001300','iKross Bluetooth Portable Keyboard + Cell Phone Stand Holder + Brush for Apple iPhone 5S 5C 5, 4S 4','Technology','Phones'),
 	 ('TEC-PH-10001305','Panasonic KX TS208W Corded phone','Technology','Phones'),
 	 ('TEC-PH-10001336','Digium D40 VoIP phone','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10001363','Apple iPhone 5S','Technology','Phones'),
 	 ('TEC-PH-10001425','Mophie Juice Pack Helium for iPhone','Technology','Phones'),
 	 ('TEC-PH-10001433','Cisco Small Business SPA 502G VoIP phone','Technology','Phones'),
@@ -1914,7 +1914,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10001527','Plantronics MX500i Earset','Technology','Phones'),
 	 ('TEC-PH-10001530','Plantronics Voyager Pro Legend','Technology','Phones'),
 	 ('TEC-PH-10001536','Spigen Samsung Galaxy S5 Case Wallet','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10001552','I Need''s 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink','Technology','Phones'),
 	 ('TEC-PH-10001557','Pyle PMP37LED','Technology','Phones'),
 	 ('TEC-PH-10001578','Polycom SoundStation2 EX Conference phone','Technology','Phones'),
@@ -1925,7 +1925,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10001700','Panasonic KX-TG6844B Expandable Digital Cordless Telephone','Technology','Phones'),
 	 ('TEC-PH-10001750','Samsung Rugby III','Technology','Phones'),
 	 ('TEC-PH-10001760','Bose SoundLink Bluetooth Speaker','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10001795','RCA H5401RE1 DECT 6.0 4-Line Cordless Handset With Caller ID/Call Waiting','Technology','Phones'),
 	 ('TEC-PH-10001809','Panasonic KX T7736-B Digital phone','Technology','Phones'),
 	 ('TEC-PH-10001817','Wilson Electronics DB Pro Signal Booster','Technology','Phones'),
@@ -1936,7 +1936,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10001924','iHome FM Clock Radio with Lightning Dock','Technology','Phones'),
 	 ('TEC-PH-10001944','Wi-Ex zBoost YX540 Cellular Phone Signal Booster','Technology','Phones'),
 	 ('TEC-PH-10001949','Cisco SPA 501G IP Phone','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10002033','Konftel 250 Conference phone - Charcoal black','Technology','Phones'),
 	 ('TEC-PH-10002070','Griffin GC36547 PowerJolt SE Lightning Charger','Technology','Phones'),
 	 ('TEC-PH-10002075','AT&T EL51110 DECT','Technology','Phones'),
@@ -1947,7 +1947,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10002170','ClearSounds CSC500 Amplified Spirit Phone Corded phone','Technology','Phones'),
 	 ('TEC-PH-10002185','QVS USB Car Charger 2-Port 2.1Amp for iPod/iPhone/iPad/iPad 2/iPad 3','Technology','Phones'),
 	 ('TEC-PH-10002200','Samsung Galaxy Note 2','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10002262','LG Electronics Tone+ HBS-730 Bluetooth Headset','Technology','Phones'),
 	 ('TEC-PH-10002275','Mitel 5320 IP Phone VoIP phone','Technology','Phones'),
 	 ('TEC-PH-10002293','Anker 36W 4-Port USB Wall Charger Travel Power Adapter for iPhone 5s 5c 5','Technology','Phones'),
@@ -1958,7 +1958,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10002398','AT&T 1070 Corded Phone','Technology','Phones'),
 	 ('TEC-PH-10002415','Polycom VoiceStation 500 Conference phone','Technology','Phones'),
 	 ('TEC-PH-10002447','AT&T CL83451 4-Handset Telephone','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10002468','Plantronics CS 50-USB - headset - Convertible, Monaural','Technology','Phones'),
 	 ('TEC-PH-10002483','Motorola Moto X','Technology','Phones'),
 	 ('TEC-PH-10002496','Cisco SPA301','Technology','Phones'),
@@ -1969,7 +1969,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10002564','OtterBox Defender Series Case - Samsung Galaxy S4','Technology','Phones'),
 	 ('TEC-PH-10002583','iOttie HLCRIO102 Car Mount','Technology','Phones'),
 	 ('TEC-PH-10002584','Samsung Galaxy S4','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10002597','Xblue XB-1670-86 X16 Small Office Telephone - Titanium','Technology','Phones'),
 	 ('TEC-PH-10002624','Samsung Galaxy S4 Mini','Technology','Phones'),
 	 ('TEC-PH-10002645','LG G2','Technology','Phones'),
@@ -1980,7 +1980,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10002807','Motorla HX550 Universal Bluetooth Headset','Technology','Phones'),
 	 ('TEC-PH-10002817','RCA ViSYS 25425RE1 Corded phone','Technology','Phones'),
 	 ('TEC-PH-10002824','Jabra SPEAK 410 Multidevice Speakerphone','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10002834','Google Nexus 5','Technology','Phones'),
 	 ('TEC-PH-10002844','Speck Products Candyshell Flip Case','Technology','Phones'),
 	 ('TEC-PH-10002885','Apple iPhone 5','Technology','Phones'),
@@ -1991,7 +1991,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10003072','Panasonic KX-TG9541B DECT 6.0 Digital 2-Line Expandable Cordless Phone With Digital Answering System','Technology','Phones'),
 	 ('TEC-PH-10003092','Motorola L804','Technology','Phones'),
 	 ('TEC-PH-10003095','Samsung HM1900 Bluetooth Headset','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10003171','Plantronics Encore H101 Dual Earpieces Headset','Technology','Phones'),
 	 ('TEC-PH-10003174','RCA ViSYS 25825 Wireless digital phone','Technology','Phones'),
 	 ('TEC-PH-10003187','Anker Astro Mini 3000mAh Ultra-Compact Portable Charger','Technology','Phones'),
@@ -2002,7 +2002,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10003437','Blue Parrot B250XT Professional Grade Wireless Bluetooth Headset with','Technology','Phones'),
 	 ('TEC-PH-10003442','Samsung Replacement EH64AVFWE Premium Headset','Technology','Phones'),
 	 ('TEC-PH-10003484','Ooma Telo VoIP Home Phone System','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10003505','Geemarc AmpliPOWER60','Technology','Phones'),
 	 ('TEC-PH-10003535','RCA ViSYS 25423RE1 Corded phone','Technology','Phones'),
 	 ('TEC-PH-10003555','Motorola HK250 Universal Bluetooth Headset','Technology','Phones'),
@@ -2013,7 +2013,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10003655','Sannysis Cute Owl Design Soft Skin Case Cover for Samsung Galaxy S4','Technology','Phones'),
 	 ('TEC-PH-10003691','BlackBerry Q10','Technology','Phones'),
 	 ('TEC-PH-10003800','i.Sound Portable Power - 8000 mAh','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10003811','Jabra Supreme Plus Driver Edition Headset','Technology','Phones'),
 	 ('TEC-PH-10003875','KLD Oscar II Style Snap-on Ultra Thin Side Flip Synthetic Leather Cover Case for HTC One HTC M7','Technology','Phones'),
 	 ('TEC-PH-10003885','Cisco SPA508G','Technology','Phones'),
@@ -2024,7 +2024,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10004042','ClearOne Communications CHAT 70 OC Speaker Phone','Technology','Phones'),
 	 ('TEC-PH-10004071','PayAnywhere Card Reader','Technology','Phones'),
 	 ('TEC-PH-10004080','Avaya 5410 Digital phone','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10004093','Panasonic Kx-TS550','Technology','Phones'),
 	 ('TEC-PH-10004094','Motorola L703CM','Technology','Phones'),
 	 ('TEC-PH-10004100','Griffin GC17055 Auxiliary Audio Cable','Technology','Phones'),
@@ -2035,7 +2035,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10004345','Cisco SPA 502G IP Phone','Technology','Phones'),
 	 ('TEC-PH-10004348','OtterBox Defender Series Case - iPhone 5c','Technology','Phones'),
 	 ('TEC-PH-10004389','Nokia Lumia 925','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10004434','Cisco IP Phone 7961G VoIP phone - Dark gray','Technology','Phones'),
 	 ('TEC-PH-10004447','Toshiba IPT2010-SD IP Telephone','Technology','Phones'),
 	 ('TEC-PH-10004522','Dexim XPower Skin Super-Thin Power Case for iPhone 5 - Black','Technology','Phones'),
@@ -2046,7 +2046,7 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10004614','AT&T 841000 Phone','Technology','Phones'),
 	 ('TEC-PH-10004667','Cisco 8x8 Inc. 6753i IP Business Phone System','Technology','Phones'),
 	 ('TEC-PH-10004700','PowerGen Dual USB Car Charger','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10004774','Gear Head AU3700S Headset','Technology','Phones'),
 	 ('TEC-PH-10004830','Pyle PRT45 Retro Home Telephone','Technology','Phones'),
 	 ('TEC-PH-10004833','Macally Suction Cup Mount','Technology','Phones'),
@@ -2057,6 +2057,6 @@ INSERT INTO public.products (product_id,product_name,category,sub_category) VALU
 	 ('TEC-PH-10004912','Cisco SPA112 2 Port Phone Adapter','Technology','Phones'),
 	 ('TEC-PH-10004922','RCA Visys Integrated PBX 8-Line Router','Technology','Phones'),
 	 ('TEC-PH-10004924','SKILCRAFT Telephone Shoulder Rest, 2" x 6.5" x 2.5", Black','Technology','Phones');
-INSERT INTO public.products (product_id,product_name,category,sub_category) VALUES
+INSERT INTO products (product_id,product_name,category,sub_category) VALUES
 	 ('TEC-PH-10004959','Classic Ivory Antique Telephone ZL1810','Technology','Phones'),
 	 ('TEC-PH-10004977','GE 30524EE4','Technology','Phones');

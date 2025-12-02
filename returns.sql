@@ -1,15 +1,15 @@
--- public."returns" definition
+-- "returns" definition
 
 -- Drop table
 
--- DROP TABLE public."returns";
+-- DROP TABLE "returns";
 
-CREATE TABLE public."returns" (
+CREATE TABLE "returns" (
 	order_id varchar(50) NULL,
 	returned varchar(50) NULL
 );
 
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2015-100762','Yes'),
 	 ('CA-2015-100867','Yes'),
 	 ('CA-2015-102652','Yes'),
@@ -20,7 +20,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2015-105270','Yes'),
 	 ('CA-2015-108609','Yes'),
 	 ('CA-2015-108861','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2015-109918','Yes'),
 	 ('CA-2015-110786','Yes'),
 	 ('CA-2015-111871','Yes'),
@@ -31,7 +31,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2015-124688','Yes'),
 	 ('CA-2015-126361','Yes'),
 	 ('CA-2015-126403','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2015-126522','Yes'),
 	 ('CA-2015-127012','Yes'),
 	 ('CA-2015-127131','Yes'),
@@ -42,7 +42,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2015-140816','Yes'),
 	 ('CA-2015-141726','Yes'),
 	 ('CA-2015-142769','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2015-143336','Yes'),
 	 ('CA-2015-143840','Yes'),
 	 ('CA-2015-148614','Yes'),
@@ -53,7 +53,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2015-156349','Yes'),
 	 ('CA-2015-157924','Yes'),
 	 ('CA-2015-159338','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2015-160766','Yes'),
 	 ('CA-2015-160773','Yes'),
 	 ('CA-2015-164721','Yes'),
@@ -64,7 +64,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-103716','Yes'),
 	 ('CA-2016-104129','Yes'),
 	 ('CA-2016-105158','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2016-107678','Yes'),
 	 ('CA-2016-109736','Yes'),
 	 ('CA-2016-110814','Yes'),
@@ -75,7 +75,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-116092','Yes'),
 	 ('CA-2016-119214','Yes'),
 	 ('CA-2016-119907','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2016-123568','Yes'),
 	 ('CA-2016-124058','Yes'),
 	 ('CA-2016-130456','Yes'),
@@ -86,7 +86,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-134201','Yes'),
 	 ('CA-2016-135580','Yes'),
 	 ('CA-2016-138674','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2016-139731','Yes'),
 	 ('CA-2016-140984','Yes'),
 	 ('CA-2016-141593','Yes'),
@@ -97,7 +97,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-144267','Yes'),
 	 ('CA-2016-146255','Yes'),
 	 ('CA-2016-146262','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2016-146486','Yes'),
 	 ('CA-2016-148873','Yes'),
 	 ('CA-2016-149342','Yes'),
@@ -108,7 +108,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-151547','Yes'),
 	 ('CA-2016-153220','Yes'),
 	 ('CA-2016-154970','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2016-155761','Yes'),
 	 ('CA-2016-156440','Yes'),
 	 ('CA-2016-157770','Yes'),
@@ -119,7 +119,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2016-168480','Yes'),
 	 ('CA-2016-168564','Yes'),
 	 ('CA-2016-169397','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-104689','Yes'),
 	 ('CA-2017-105081','Yes'),
 	 ('CA-2017-105291','Yes'),
@@ -130,7 +130,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-111682','Yes'),
 	 ('CA-2017-112123','Yes'),
 	 ('CA-2017-112340','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-113341','Yes'),
 	 ('CA-2017-114307','Yes'),
 	 ('CA-2017-114727','Yes'),
@@ -141,7 +141,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-118500','Yes'),
 	 ('CA-2017-118899','Yes'),
 	 ('CA-2017-120873','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-123526','Yes'),
 	 ('CA-2017-124527','Yes'),
 	 ('CA-2017-126529','Yes'),
@@ -152,7 +152,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-130680','Yes'),
 	 ('CA-2017-133319','Yes'),
 	 ('CA-2017-133368','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-133802','Yes'),
 	 ('CA-2017-134775','Yes'),
 	 ('CA-2017-134803','Yes'),
@@ -163,7 +163,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-142398','Yes'),
 	 ('CA-2017-145261','Yes'),
 	 ('CA-2017-145492','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-145583','Yes'),
 	 ('CA-2017-145919','Yes'),
 	 ('CA-2017-145982','Yes'),
@@ -174,7 +174,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-151372','Yes'),
 	 ('CA-2017-152814','Yes'),
 	 ('CA-2017-157280','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2017-159023','Yes'),
 	 ('CA-2017-159212','Yes'),
 	 ('CA-2017-159345','Yes'),
@@ -185,7 +185,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2017-166275','Yes'),
 	 ('CA-2017-167759','Yes'),
 	 ('CA-2017-168921','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-100111','Yes'),
 	 ('CA-2018-101273','Yes'),
 	 ('CA-2018-101574','Yes'),
@@ -196,7 +196,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-107825','Yes'),
 	 ('CA-2018-108294','Yes'),
 	 ('CA-2018-108931','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-109085','Yes'),
 	 ('CA-2018-111556','Yes'),
 	 ('CA-2018-112725','Yes'),
@@ -207,7 +207,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-115994','Yes'),
 	 ('CA-2018-117212','Yes'),
 	 ('CA-2018-117513','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-117926','Yes'),
 	 ('CA-2018-118122','Yes'),
 	 ('CA-2018-118542','Yes'),
@@ -218,7 +218,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-122504','Yes'),
 	 ('CA-2018-123085','Yes'),
 	 ('CA-2018-123491','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-124401','Yes'),
 	 ('CA-2018-127306','Yes'),
 	 ('CA-2018-128965','Yes'),
@@ -229,7 +229,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-131807','Yes'),
 	 ('CA-2018-131828','Yes'),
 	 ('CA-2018-132346','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-134194','Yes'),
 	 ('CA-2018-135692','Yes'),
 	 ('CA-2018-136308','Yes'),
@@ -240,7 +240,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-137414','Yes'),
 	 ('CA-2018-137428','Yes'),
 	 ('CA-2018-138163','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-140053','Yes'),
 	 ('CA-2018-140151','Yes'),
 	 ('CA-2018-140186','Yes'),
@@ -251,7 +251,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-142342','Yes'),
 	 ('CA-2018-142867','Yes'),
 	 ('CA-2018-142888','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-143084','Yes'),
 	 ('CA-2018-144064','Yes'),
 	 ('CA-2018-145128','Yes'),
@@ -262,7 +262,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-152660','Yes'),
 	 ('CA-2018-153822','Yes'),
 	 ('CA-2018-154074','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-154214','Yes'),
 	 ('CA-2018-154949','Yes'),
 	 ('CA-2018-155712','Yes'),
@@ -273,7 +273,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-159954','Yes'),
 	 ('CA-2018-161459','Yes'),
 	 ('CA-2018-161557','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-161956','Yes'),
 	 ('CA-2018-162015','Yes'),
 	 ('CA-2018-165008','Yes'),
@@ -284,7 +284,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('CA-2018-167003','Yes'),
 	 ('CA-2018-167395','Yes'),
 	 ('CA-2018-168193','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('CA-2018-169327','Yes'),
 	 ('CA-2018-169859','Yes'),
 	 ('CA-2018-169894','Yes'),
@@ -295,7 +295,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('US-2015-150574','Yes'),
 	 ('US-2015-164406','Yes'),
 	 ('US-2015-164763','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('US-2016-110569','Yes'),
 	 ('US-2016-126214','Yes'),
 	 ('US-2016-128090','Yes'),
@@ -306,7 +306,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('US-2017-105578','Yes'),
 	 ('US-2017-108455','Yes'),
 	 ('US-2017-111528','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('US-2017-114230','Yes'),
 	 ('US-2017-114293','Yes'),
 	 ('US-2017-115952','Yes'),
@@ -317,7 +317,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('US-2017-140172','Yes'),
 	 ('US-2017-144057','Yes'),
 	 ('US-2017-148957','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('US-2017-151827','Yes'),
 	 ('US-2017-152051','Yes'),
 	 ('US-2017-156986','Yes'),
@@ -328,7 +328,7 @@ INSERT INTO public."returns" (order_id,returned) VALUES
 	 ('US-2018-107888','Yes'),
 	 ('US-2018-109253','Yes'),
 	 ('US-2018-118087','Yes');
-INSERT INTO public."returns" (order_id,returned) VALUES
+INSERT INTO "returns" (order_id,returned) VALUES
 	 ('US-2018-123834','Yes'),
 	 ('US-2018-136679','Yes'),
 	 ('US-2018-147886','Yes'),

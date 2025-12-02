@@ -1,16 +1,16 @@
--- public.customers definition
+-- customers definition
 
 -- Drop table
 
--- DROP TABLE public.customers;
+-- DROP TABLE customers;
 
-CREATE TABLE public.customers (
+CREATE TABLE customers (
 	segment varchar NULL,
 	customer_id varchar(50) NULL,
 	customer_name varchar(50) NULL
 );
 
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AA-10315','Alex Avila'),
 	 ('Consumer','AA-10375','Allen Armold'),
 	 ('Consumer','AA-10480','Andrew Allen'),
@@ -21,7 +21,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AB-10150','Aimee Bixby'),
 	 ('Consumer','AB-10165','Alan Barnes'),
 	 ('Home Office','AB-10255','Alejandro Ballentine');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AB-10600','Ann Blume'),
 	 ('Corporate','AC-10420','Alyssa Crouse'),
 	 ('Consumer','AC-10450','Amy Cox'),
@@ -32,7 +32,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AF-10885','Art Foster'),
 	 ('Consumer','AG-10270','Alejandro Grove'),
 	 ('Corporate','AG-10300','Aleksandra Gannaway');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AG-10330','Alex Grayson'),
 	 ('Consumer','AG-10390','Allen Goldenen'),
 	 ('Corporate','AG-10495','Andrew Gjertsen'),
@@ -43,7 +43,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AH-10030','Aaron Hawkins'),
 	 ('Corporate','AH-10075','Adam Hart'),
 	 ('Home Office','AH-10120','Adrian Hane');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AH-10195','Alan Haines'),
 	 ('Consumer','AH-10210','Alan Hwang'),
 	 ('Consumer','AH-10465','Amy Hunt'),
@@ -54,7 +54,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AJ-10795','Anthony Johnson'),
 	 ('Consumer','AJ-10945','Ashley Jarboe'),
 	 ('Consumer','AJ-10960','Astrea Jones');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AM-10360','Alice McCarthy'),
 	 ('Consumer','AM-10705','Anne McFarland'),
 	 ('Corporate','AO-10810','Anthony O''Donnell'),
@@ -65,7 +65,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AR-10510','Andrew Roberts'),
 	 ('Consumer','AR-10540','Andy Reiter'),
 	 ('Consumer','AR-10570','Anemone Ratner');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','AR-10825','Anthony Rawles'),
 	 ('Corporate','AS-10045','Aaron Smayling'),
 	 ('Consumer','AS-10090','Adam Shillingsburg'),
@@ -76,7 +76,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','AS-10630','Ann Steele'),
 	 ('Home Office','AT-10435','Alyssa Tate'),
 	 ('Consumer','AT-10735','Annie Thurman');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','AW-10840','Anthony Witt'),
 	 ('Home Office','AW-10930','Arthur Wiediger'),
 	 ('Corporate','AY-10555','Andy Yotov'),
@@ -87,7 +87,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BD-11320','Bill Donatelli'),
 	 ('Consumer','BD-11500','Bradley Drucker'),
 	 ('Home Office','BD-11560','Brendan Dodson');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BD-11605','Brian Dahlen'),
 	 ('Consumer','BD-11620','Brian DeCherney'),
 	 ('Consumer','BD-11635','Brian Derr'),
@@ -98,7 +98,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','BE-11455','Brad Eason'),
 	 ('Corporate','BF-10975','Barbara Fisher'),
 	 ('Home Office','BF-11005','Barry Franz');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','BF-11020','Barry Französisch'),
 	 ('Consumer','BF-11080','Bart Folk'),
 	 ('Home Office','BF-11170','Ben Ferrer'),
@@ -109,7 +109,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BG-11740','Bruce Geld'),
 	 ('Consumer','BH-11710','Brosina Hoffman'),
 	 ('Consumer','BK-11260','Berenike Kampe');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BM-11140','Becky Martin'),
 	 ('Corporate','BM-11575','Brendan Murry'),
 	 ('Corporate','BM-11650','Brian Moss'),
@@ -120,7 +120,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BO-11425','Bobby Odegard'),
 	 ('Corporate','BP-11050','Barry Pond'),
 	 ('Corporate','BP-11095','Bart Pistole');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BP-11155','Becky Pak'),
 	 ('Corporate','BP-11185','Ben Peterman'),
 	 ('Consumer','BP-11230','Benjamin Patterson'),
@@ -131,7 +131,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BS-11665','Brian Stugart'),
 	 ('Consumer','BS-11755','Bruce Stewart'),
 	 ('Home Office','BS-11800','Bryan Spruell');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','BT-11305','Beth Thompson'),
 	 ('Corporate','BT-11395','Bill Tyler'),
 	 ('Consumer','BT-11440','Bobby Trafton'),
@@ -142,7 +142,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','BW-11065','Barry Weirich'),
 	 ('Corporate','BW-11110','Bart Watters'),
 	 ('Consumer','BW-11200','Ben Wallace');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','CA-11965','Carol Adams'),
 	 ('Home Office','CA-12055','Cathy Armstrong'),
 	 ('Consumer','CA-12265','Christina Anderson'),
@@ -153,7 +153,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','CB-12535','Claudia Bergmann'),
 	 ('Home Office','CC-12100','Chad Cunningham'),
 	 ('Consumer','CC-12145','Charles Crestani');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CC-12220','Chris Cortes'),
 	 ('Consumer','CC-12370','Christopher Conant'),
 	 ('Home Office','CC-12430','Chuck Clark'),
@@ -164,7 +164,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CC-12685','Craig Carroll'),
 	 ('Consumer','CD-11920','Carlos Daly'),
 	 ('Consumer','CD-11980','Carol Darley');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CD-12280','Christina DeMoss'),
 	 ('Home Office','CD-12790','Cynthia Delaney'),
 	 ('Home Office','CG-12040','Catherine Glotzbach'),
@@ -175,7 +175,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CK-12205','Chloris Kastensmidt'),
 	 ('Home Office','CK-12325','Christine Kargatis'),
 	 ('Consumer','CK-12595','Clytie Kelty');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','CK-12760','Cyma Kinney'),
 	 ('Consumer','CL-11890','Carl Ludwig'),
 	 ('Consumer','CL-12565','Clay Ludtke'),
@@ -186,7 +186,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CM-12160','Charles McCrossin'),
 	 ('Consumer','CM-12190','Charlotte Melton'),
 	 ('Consumer','CM-12235','Chris McAfee');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CM-12385','Christopher Martinez'),
 	 ('Consumer','CM-12445','Chuck Magee'),
 	 ('Home Office','CM-12655','Corinna Mitchell'),
@@ -197,7 +197,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','CR-12580','Clay Rozendal'),
 	 ('Home Office','CR-12625','Corey Roper'),
 	 ('Consumer','CR-12730','Craig Reiter');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','CR-12820','Cyra Reiten'),
 	 ('Corporate','CS-11845','Cari Sayre'),
 	 ('Consumer','CS-11860','Cari Schnelling'),
@@ -208,7 +208,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','CS-12355','Christine Sundaresam'),
 	 ('Home Office','CS-12400','Christopher Schild'),
 	 ('Consumer','CS-12460','Chuck Sachs');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','CS-12490','Cindy Schnelling'),
 	 ('Consumer','CS-12505','Cindy Stewart'),
 	 ('Consumer','CT-11995','Carol Triggs'),
@@ -219,7 +219,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','DA-13450','Dianna Arnett'),
 	 ('Home Office','DB-12910','Daniel Byrd'),
 	 ('Corporate','DB-12970','Darren Budd');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DB-13060','Dave Brooks'),
 	 ('Corporate','DB-13120','David Bremer'),
 	 ('Consumer','DB-13210','Dean Braden'),
@@ -230,7 +230,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DB-13615','Doug Bickford'),
 	 ('Consumer','DB-13660','Duane Benoit'),
 	 ('Consumer','DC-12850','Dan Campbell');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DC-13285','Debra Catini'),
 	 ('Consumer','DD-13570','Dorothy Dickinson'),
 	 ('Home Office','DE-13255','Deanra Eno'),
@@ -241,7 +241,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','DJ-13420','Denny Joy'),
 	 ('Corporate','DJ-13510','Don Jones'),
 	 ('Consumer','DJ-13630','Doug Jacobs');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','DK-12835','Damala Kotsonis'),
 	 ('Consumer','DK-12895','Dana Kaydos'),
 	 ('Consumer','DK-12985','Darren Koutras'),
@@ -252,7 +252,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DL-12865','Dan Lawera'),
 	 ('Consumer','DL-12925','Daniel Lacy'),
 	 ('Consumer','DL-13315','Delfina Latchford');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DL-13330','Denise Leinenbach'),
 	 ('Corporate','DL-13495','Dionis Lloyd'),
 	 ('Corporate','Dl-13600','Dorris liebe'),
@@ -263,7 +263,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DN-13690','Duane Noonan'),
 	 ('Consumer','DO-13435','Denny Ordway'),
 	 ('Consumer','DO-13645','Doug O''Connell');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DP-13000','Darren Powers'),
 	 ('Corporate','DP-13105','Dave Poirier'),
 	 ('Consumer','DP-13165','David Philippe'),
@@ -274,7 +274,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','DS-13030','Darrin Sayre'),
 	 ('Corporate','DS-13180','David Smith'),
 	 ('Corporate','DV-13045','Darrin Van Huff');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','DV-13465','Dianna Vittorini'),
 	 ('Corporate','DW-13195','David Wiener'),
 	 ('Home Office','DW-13480','Dianna Wilson'),
@@ -285,7 +285,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','EB-13750','Edward Becker'),
 	 ('Corporate','EB-13840','Ellis Ballard'),
 	 ('Consumer','EB-13870','Emily Burns');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','EB-13930','Eric Barreto'),
 	 ('Corporate','EB-13975','Erica Bern'),
 	 ('Consumer','EB-14110','Eugene Barchas'),
@@ -296,7 +296,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','EH-13765','Edward Hooks'),
 	 ('Consumer','EH-13945','Eric Hoffmann'),
 	 ('Consumer','EH-13990','Erica Hackney');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','EH-14005','Erica Hernandez'),
 	 ('Home Office','EH-14125','Eugene Hildebrand'),
 	 ('Consumer','EH-14185','Evan Henry'),
@@ -307,7 +307,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','EM-13810','Eleni McCrary'),
 	 ('Corporate','EM-13825','Elizabeth Moffitt'),
 	 ('Consumer','EM-13960','Eric Murdock');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','EM-14065','Erin Mull'),
 	 ('Corporate','EM-14095','Eudokia Martin'),
 	 ('Home Office','EM-14140','Eugene Moren'),
@@ -318,7 +318,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','ES-14020','Erica Smith'),
 	 ('Corporate','ES-14080','Erin Smith'),
 	 ('Corporate','FA-14230','Frank Atkinson');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','FC-14245','Frank Carlisle'),
 	 ('Corporate','FC-14335','Fred Chung'),
 	 ('Home Office','FG-14260','Frank Gastineau'),
@@ -329,7 +329,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','FM-14290','Frank Merwin'),
 	 ('Consumer','FM-14380','Fred McMath'),
 	 ('Consumer','FO-14305','Frank Olsen');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','FP-14320','Frank Preis'),
 	 ('Corporate','FW-14395','Fred Wasserman'),
 	 ('Consumer','GA-14515','George Ashbrook'),
@@ -340,7 +340,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','GG-14650','Greg Guthrie'),
 	 ('Home Office','GH-14410','Gary Hansen'),
 	 ('Consumer','GH-14425','Gary Hwang');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','GH-14485','Gene Hale'),
 	 ('Consumer','GH-14665','Greg Hansen'),
 	 ('Corporate','GK-14620','Grace Kelly'),
@@ -351,7 +351,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','GM-14695','Greg Maxwell'),
 	 ('Corporate','GP-14740','Guy Phonely'),
 	 ('Corporate','GR-14560','Georgia Rosenberg');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','GT-14635','Grant Thornton'),
 	 ('Consumer','GT-14710','Greg Tran'),
 	 ('Consumer','GT-14755','Guy Thornton'),
@@ -362,7 +362,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','HA-14920','Helen Andreada'),
 	 ('Home Office','HD-14785','Harold Dahlen'),
 	 ('Corporate','HE-14800','Harold Engle');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','HF-14995','Herbert Flentye'),
 	 ('Consumer','HG-14845','Harry Greene'),
 	 ('Corporate','HG-14965','Henry Goldwyn'),
@@ -373,7 +373,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','HL-15040','Hunter Lopez'),
 	 ('Corporate','HM-14860','Harry Marie'),
 	 ('Consumer','HM-14980','Henry MacAllister');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','HP-14815','Harold Pawlan'),
 	 ('Home Office','HR-14770','Hallie Redmond'),
 	 ('Corporate','HR-14830','Harold Ryan'),
@@ -384,7 +384,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','IM-15055','Ionia McGrath'),
 	 ('Consumer','IM-15070','Irene Maddox'),
 	 ('Consumer','JA-15970','Joseph Airdo');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JB-15400','Jennifer Braxton'),
 	 ('Consumer','JB-15925','Joni Blumstein'),
 	 ('Consumer','JB-16000','Joy Bell-'),
@@ -395,7 +395,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JC-16105','Julie Creighton'),
 	 ('Consumer','JD-15790','John Dryer'),
 	 ('Corporate','JD-15895','Jonathan Doherty');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JD-16015','Joy Daniels'),
 	 ('Consumer','JD-16060','Julia Dunbar'),
 	 ('Corporate','JD-16150','Justin Deggeller'),
@@ -406,7 +406,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JE-16165','Justin Ellison'),
 	 ('Consumer','JF-15190','Jamie Frazer'),
 	 ('Consumer','JF-15295','Jason Fortune-');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JF-15355','Jay Fein'),
 	 ('Consumer','JF-15415','Jennifer Ferguson'),
 	 ('Consumer','JF-15490','Jeremy Farry'),
@@ -417,7 +417,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JG-15805','John Grady'),
 	 ('Consumer','JH-15430','Jennifer Halladay'),
 	 ('Consumer','JH-15820','John Huston');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JH-15910','Jonathan Howell'),
 	 ('Consumer','JH-15985','Joseph Holt'),
 	 ('Consumer','JH-16180','Justin Hirsh'),
@@ -428,7 +428,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JK-15370','Jay Kimmel'),
 	 ('Consumer','JK-15625','Jim Karlsson'),
 	 ('Home Office','JK-15640','Jim Kriz');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JK-15730','Joe Kamberova'),
 	 ('Consumer','JK-16090','Juliana Krohn'),
 	 ('Home Office','JK-16120','Julie Kriz'),
@@ -439,7 +439,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JL-15835','John Lee'),
 	 ('Consumer','JL-15850','John Lucas'),
 	 ('Consumer','JM-15250','Janet Martin');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JM-15265','Janet Molinari'),
 	 ('Consumer','JM-15535','Jessica Myrick'),
 	 ('Consumer','JM-15580','Jill Matthias'),
@@ -450,7 +450,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JO-15280','Jas O''Carroll'),
 	 ('Home Office','JO-15550','Jesus Ocampo'),
 	 ('Corporate','JP-15460','Jennifer Patt');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JP-15520','Jeremy Pistek'),
 	 ('Home Office','JP-16135','Julie Prescott'),
 	 ('Consumer','JR-15670','Jim Radford'),
@@ -461,7 +461,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','JS-15880','John Stevenson'),
 	 ('Home Office','JS-15940','Joni Sundaresam'),
 	 ('Consumer','JS-16030','Joy Smith');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','JW-15220','Jane Waco'),
 	 ('Consumer','JW-15955','Joni Wasserman'),
 	 ('Consumer','JW-16075','Julia West'),
@@ -472,7 +472,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','KB-16585','Ken Black'),
 	 ('Corporate','KB-16600','Ken Brennan'),
 	 ('Corporate','KC-16255','Karen Carlisle');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','KC-16540','Kelly Collister'),
 	 ('Corporate','KC-16675','Kimberly Carter'),
 	 ('Consumer','KD-16270','Karen Daniels'),
@@ -483,7 +483,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','KF-16285','Karen Ferguson'),
 	 ('Corporate','KH-16330','Katharine Harms'),
 	 ('Consumer','KH-16360','Katherine Hughes');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','KH-16510','Keith Herrera'),
 	 ('Corporate','KH-16630','Ken Heidel'),
 	 ('Corporate','KH-16690','Kristen Hastings'),
@@ -494,7 +494,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','KM-16660','Khloe Miller'),
 	 ('Consumer','KM-16720','Kunst Miller'),
 	 ('Corporate','KN-16390','Katherine Nockton');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','KN-16450','Kean Nguyen'),
 	 ('Home Office','KN-16705','Kristina Nunn'),
 	 ('Corporate','KS-16300','Karen Seio'),
@@ -505,7 +505,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','LA-16780','Laura Armstrong'),
 	 ('Consumer','LB-16735','Larry Blacks'),
 	 ('Home Office','LB-16795','Laurel Beltran');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LC-16870','Lena Cacioppo'),
 	 ('Consumer','LC-16885','Lena Creighton'),
 	 ('Corporate','LC-16930','Linda Cazamias'),
@@ -516,7 +516,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LD-17005','Lisa DeCherney'),
 	 ('Consumer','LE-16810','Laurel Elliston'),
 	 ('Consumer','LF-17185','Luke Foster');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LH-16750','Larry Hughes'),
 	 ('Consumer','LH-16900','Lena Hernandez'),
 	 ('Consumer','LH-17020','Lisa Hazard'),
@@ -527,7 +527,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LP-17080','Liz Pelletier'),
 	 ('Consumer','LP-17095','Liz Preis'),
 	 ('Consumer','LR-16915','Lena Radford');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','LR-17035','Lisa Ryan'),
 	 ('Corporate','LS-16945','Linda Southworth'),
 	 ('Home Office','LS-16975','Lindsay Shagiari'),
@@ -538,7 +538,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LT-17110','Liz Thompson'),
 	 ('Corporate','LW-16825','Laurel Workman'),
 	 ('Corporate','LW-16990','Lindsay Williams');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','LW-17125','Liz Willingham'),
 	 ('Consumer','LW-17215','Luke Weiss'),
 	 ('Home Office','MA-17560','Matt Abelman'),
@@ -549,7 +549,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MC-17425','Mark Cousins'),
 	 ('Consumer','MC-17575','Matt Collins'),
 	 ('Corporate','MC-17590','Matt Collister');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MC-17605','Matt Connell'),
 	 ('Corporate','MC-17635','Matthew Clasen'),
 	 ('Consumer','MC-17845','Michael Chen'),
@@ -560,7 +560,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','ME-17320','Maria Etezadi'),
 	 ('Consumer','ME-17725','Max Engle'),
 	 ('Corporate','ME-18010','Michelle Ellison');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MF-17665','Maureen Fritzler'),
 	 ('Corporate','MF-18250','Monica Federle'),
 	 ('Home Office','MG-17650','Matthew Grinstein'),
@@ -571,7 +571,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','MG-18145','Mike Gockenbach'),
 	 ('Corporate','MG-18205','Mitch Gastineau'),
 	 ('Home Office','MH-17290','Marc Harrigan');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MH-17440','Mark Haberlin'),
 	 ('Consumer','MH-17455','Mark Hamilton'),
 	 ('Corporate','MH-17620','Matt Hagelstein'),
@@ -582,7 +582,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MK-17905','Michael Kennedy'),
 	 ('Consumer','MK-18160','Mike Kennedy'),
 	 ('Corporate','ML-17395','Marina Lichtenstein');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','ML-17410','Maris LaWare'),
 	 ('Home Office','ML-17755','Max Ludwig'),
 	 ('Corporate','ML-18040','Michelle Lonsdale'),
@@ -593,7 +593,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MM-18280','Muhammed MacIntyre'),
 	 ('Consumer','MN-17935','Michael Nguyen'),
 	 ('Consumer','MO-17500','Mary O''Rourke');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','MO-17800','Meg O''Connel'),
 	 ('Consumer','MO-17950','Michael Oakman'),
 	 ('Home Office','MP-17470','Mark Packer'),
@@ -604,7 +604,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','MS-17530','MaryBeth Skach'),
 	 ('Consumer','MS-17710','Maurice Satty'),
 	 ('Consumer','MS-17770','Maxwell Schwartz');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','MS-17830','Melanie Seite'),
 	 ('Corporate','MS-17980','Michael Stewart'),
 	 ('Consumer','MT-17815','Meg Tillman'),
@@ -615,7 +615,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','MW-18235','Mitch Willingham'),
 	 ('Corporate','MY-17380','Maribeth Yedwab'),
 	 ('Corporate','MY-18295','Muhammed Yedwab');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','MZ-17335','Maria Zettner'),
 	 ('Corporate','MZ-17515','Mary Zewe'),
 	 ('Corporate','NB-18580','Nicole Brennan'),
@@ -626,7 +626,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','NC-18625','Noah Childs'),
 	 ('Consumer','ND-18370','Natalie DeCherney'),
 	 ('Corporate','ND-18460','Neil Ducich');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','NF-18385','Natalie Fritzler'),
 	 ('Home Office','NF-18475','Neil Französisch'),
 	 ('Home Office','NF-18595','Nicole Fjeld'),
@@ -637,7 +637,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','NL-18310','Nancy Lomonaco'),
 	 ('Home Office','NM-18445','Nathan Mautz'),
 	 ('Consumer','NM-18520','Neoma Murray');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','NP-18325','Naresj Patel'),
 	 ('Consumer','NP-18670','Nora Paige'),
 	 ('Home Office','NP-18685','Nora Pelletier'),
@@ -648,7 +648,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','NW-18400','Natalie Webber'),
 	 ('Home Office','NZ-18565','Nick Zandusky'),
 	 ('Corporate','ON-18715','Odella Nelson');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','OT-18730','Olvera Toch'),
 	 ('Home Office','PA-19060','Pete Armstrong'),
 	 ('Home Office','PB-18805','Patrick Bzostek'),
@@ -659,7 +659,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','PC-19000','Pauline Chand'),
 	 ('Consumer','PF-19120','Peter Fuller'),
 	 ('Consumer','PF-19165','Philip Fox');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','PF-19225','Phillip Flathmann'),
 	 ('Consumer','PG-18820','Patrick Gardner'),
 	 ('Consumer','PG-18895','Paul Gonzalez'),
@@ -670,7 +670,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','PK-19075','Pete Kriz'),
 	 ('Home Office','PL-18925','Paul Lucas'),
 	 ('Consumer','PM-18940','Paul MacIntyre');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','PM-19135','Peter McVee'),
 	 ('Home Office','PN-18775','Parhena Norris'),
 	 ('Consumer','PO-18850','Patrick O''Brill'),
@@ -681,7 +681,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','PR-18880','Patrick Ryan'),
 	 ('Consumer','PS-18760','Pamela Stobb'),
 	 ('Home Office','PS-18970','Paul Stevenson');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','PS-19045','Penelope Sewall'),
 	 ('Consumer','PT-19090','Pete Takahito'),
 	 ('Home Office','PV-18985','Paul Van Hugh'),
@@ -692,7 +692,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','RA-19885','Ruben Ausman'),
 	 ('Consumer','RA-19915','Russell Applegate'),
 	 ('Consumer','RA-19945','Ryan Akin');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RB-19330','Randy Bradley'),
 	 ('Consumer','RB-19360','Raymond Buch'),
 	 ('Consumer','RB-19435','Richard Bierner'),
@@ -703,7 +703,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','RB-19795','Ross Baird'),
 	 ('Consumer','RC-19825','Roy Collins'),
 	 ('Consumer','RC-19960','Ryan Crowe');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RD-19480','Rick Duston'),
 	 ('Consumer','RD-19585','Rob Dowd'),
 	 ('Home Office','RD-19660','Robert Dilbeck'),
@@ -714,7 +714,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RE-19405','Ricardo Emerson'),
 	 ('Consumer','RE-19450','Richard Eichhorn'),
 	 ('Corporate','RF-19345','Randy Ferguson');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RF-19735','Roland Fjeld'),
 	 ('Consumer','RF-19840','Roy Französisch'),
 	 ('Consumer','RH-19495','Rick Hansen'),
@@ -725,7 +725,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RL-19615','Rob Lucas'),
 	 ('Consumer','RM-19375','Raymond Messe'),
 	 ('Home Office','RM-19675','Robert Marley');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','RM-19750','Roland Murray'),
 	 ('Consumer','RO-19780','Rose O''Brian'),
 	 ('Corporate','RP-19270','Rachel Payne'),
@@ -736,7 +736,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','RS-19420','Ricardo Sperren'),
 	 ('Corporate','RS-19765','Roland Schwarz'),
 	 ('Home Office','RS-19870','Roy Skaria');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','RW-19540','Rick Wilson'),
 	 ('Corporate','RW-19630','Rob Williams'),
 	 ('Consumer','RW-19690','Robert Waldorf'),
@@ -747,7 +747,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SC-20020','Sam Craven'),
 	 ('Home Office','SC-20050','Sample Company A'),
 	 ('Consumer','SC-20095','Sanjit Chand');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','SC-20230','Scot Coram'),
 	 ('Corporate','SC-20260','Scott Cohen'),
 	 ('Consumer','SC-20305','Sean Christensen'),
@@ -758,7 +758,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','SC-20695','Steve Chapman'),
 	 ('Consumer','SC-20725','Steven Cartwright'),
 	 ('Corporate','SC-20770','Stewart Carmichael');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SC-20800','Stuart Calhoun'),
 	 ('Consumer','SC-20845','Sung Chung'),
 	 ('Home Office','SD-20485','Shirley Daniels'),
@@ -769,7 +769,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SG-20080','Sandra Glassco'),
 	 ('Consumer','SG-20470','Sheri Gordon'),
 	 ('Consumer','SG-20605','Speros Goranitis');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','SG-20890','Susan Gilcrest'),
 	 ('Corporate','SH-19975','Sally Hughsby'),
 	 ('Consumer','SH-20395','Shahid Hopkins'),
@@ -780,7 +780,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SK-19990','Sally Knutson'),
 	 ('Home Office','SL-20155','Sara Luxemburg'),
 	 ('Consumer','SM-20005','Sally Matthias');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','SM-20320','Sean Miller'),
 	 ('Consumer','SM-20905','Susan MacKendrick'),
 	 ('Corporate','SM-20950','Suzanne McNair'),
@@ -791,7 +791,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','SP-20620','Stefania Perrino'),
 	 ('Corporate','SP-20650','Stephanie Phelps'),
 	 ('Corporate','SP-20860','Sung Pak');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SP-20920','Susan Pistek'),
 	 ('Home Office','SR-20425','Sharelle Roach'),
 	 ('Home Office','SR-20740','Steven Roelle'),
@@ -802,7 +802,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SS-20875','Sung Shariari'),
 	 ('Consumer','ST-20530','Shui Tom'),
 	 ('Home Office','SU-20665','Stephanie Ulpright');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SV-20365','Seth Vernon'),
 	 ('Consumer','SV-20785','Stewart Visinsky'),
 	 ('Corporate','SV-20815','Stuart Van'),
@@ -813,7 +813,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','SW-20455','Shaun Weien'),
 	 ('Corporate','SW-20755','Steven Ward'),
 	 ('Home Office','SZ-20035','Sam Zeldin');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','TA-21385','Tom Ashbrook'),
 	 ('Consumer','TB-21055','Ted Butterfield'),
 	 ('Corporate','TB-21175','Thomas Boland'),
@@ -824,7 +824,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TB-21400','Tom Boeckenhauer'),
 	 ('Consumer','TB-21520','Tracy Blumstein'),
 	 ('Consumer','TB-21595','Troy Blackwell');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TB-21625','Trudy Brown'),
 	 ('Corporate','TC-20980','Tamara Chand'),
 	 ('Corporate','TC-21145','Theresa Coyne'),
@@ -835,7 +835,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TG-21310','Toby Gnade'),
 	 ('Consumer','TG-21640','Trudy Glocke'),
 	 ('Consumer','TH-21100','Thea Hendricks');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','TH-21115','Thea Hudgings'),
 	 ('Corporate','TH-21235','Tiffany House'),
 	 ('Home Office','TH-21550','Tracy Hopkins'),
@@ -846,7 +846,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TP-21415','Tom Prescott'),
 	 ('Corporate','TP-21565','Tracy Poddar'),
 	 ('Consumer','TR-21325','Toby Ritter');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TS-21085','Thais Sissman'),
 	 ('Corporate','TS-21160','Theresa Swint'),
 	 ('Corporate','TS-21205','Thomas Seio'),
@@ -857,7 +857,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TS-21610','Troy Staebel'),
 	 ('Consumer','TS-21655','Trudy Schmidt'),
 	 ('Consumer','TT-21070','Ted Trevino');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','TT-21220','Thomas Thornton'),
 	 ('Corporate','TT-21265','Tim Taslimi'),
 	 ('Home Office','TT-21460','Tonja Turnell'),
@@ -868,7 +868,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','VF-21715','Vicky Freymann'),
 	 ('Consumer','VG-21790','Vivek Gonzalez'),
 	 ('Corporate','VG-21805','Vivek Grady');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Home Office','VM-21685','Valerie Mitchum'),
 	 ('Consumer','VM-21835','Vivian Mathis'),
 	 ('Home Office','VP-21730','Victor Preis'),
@@ -879,7 +879,7 @@ INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
 	 ('Consumer','WB-21850','William Brown'),
 	 ('Consumer','XP-21865','Xylona Preis'),
 	 ('Corporate','YC-21895','Yoseph Carroll');
-INSERT INTO public.customers (segment,customer_id,customer_name) VALUES
+INSERT INTO customers (segment,customer_id,customer_name) VALUES
 	 ('Corporate','YS-21880','Yana Sorensen'),
 	 ('Consumer','ZC-21910','Zuschuss Carroll'),
 	 ('Consumer','ZD-21925','Zuschuss Donatelli');
