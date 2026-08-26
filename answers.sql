@@ -67,3 +67,19 @@ SELECT (profit / sales) * 100 profit_margin
 FROM ORDERS
 WHERE profit_margin > 30
 ORDER BY profit_margin DESC
+
+-- 14. Shipping Speedsters
+-- Calculate the average delivery time (in days) for each shipping mode
+SELECT ship_mode, ship_date, AVG(JULIANDAY(ship_date) - JULIANDAY(order_date)) as delivery_days
+FROM orders
+GROUP BY ship_mode
+ORDER BY delivery_days DESC
+
+-- 15. Subcategory Champions
+-- Find the top 2 product subcategories with the highest total sales.  Output sub_category and total_sales
+SELECT p.sub_category, SUM(sales) AS total_sales
+FROM orders o
+LEFT JOIN products p ON p.product_id = o.product_id 
+GROUP BY p.sub_category
+ORDER BY total_sales DESC
+LIMIT 2
