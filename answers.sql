@@ -83,3 +83,23 @@ LEFT JOIN products p ON p.product_id = o.product_id
 GROUP BY p.sub_category
 ORDER BY total_sales DESC
 LIMIT 2
+
+-- 16. Annual Sales.  Calculate the total sales for each year, orderd chronologically.
+SELECT strftime('%Y', o.order_date ) as order_year, SUM(o.sales) as total_sales
+FROM orders o 
+GROUP BY order_year
+ORDER BY order_year ASC
+
+-- 17. High Discount, High Sales
+-- List all records from the orders table where sales exceed $500 and discount is grater than 20%
+SELECT o.sales, o.discount 
+FROM orders o
+WHERE o.sales > 500 AND o.discount > 0.2
+
+-- 18. Central Region
+-- Retrieve all order IDs from the Central Region
+SELECT DISTINCT(o.order_id)
+FROM orders o
+LEFT JOIN locations l on l.postal_code = o.postal_code
+WHERE l.region = 'Central'
+
