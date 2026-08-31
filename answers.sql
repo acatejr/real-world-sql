@@ -103,3 +103,52 @@ FROM orders o
 LEFT JOIN locations l on l.postal_code = o.postal_code
 WHERE l.region = 'Central'
 
+
+-- 19. 2017 Monthly Sales
+-- Calculate total sales for each month in 2017
+SELECT SUM(o.sales) as total_sales, STRFTIME('%m', o.order_date) AS sales_month, CAST(STRFTIME('%Y', o.order_date) AS Integer) AS SALES_YEAR
+FROM orders o
+WHERE SALES_YEAR = 2017
+GROUP BY sales_month 
+ORDER BY sales_month ASC
+
+-- 20. Shipping Profitibility
+-- Return each shipping mode's overall profit margin across all orders.  Round to two decimal places.
+SELECT o.ship_mode, ROUND(SUM(o.profit)/SUM(o.sales), 2) AS profit_margin
+FROM orders o
+GROUP BY o.ship_mode
+ORDER BY profit_margin DESC
+
+-- 21. Total Discount
+-- Return the total discount amount given across all orders, assuming sales is post-discount
+SELECT SUM((o.sales * o.discount)/(1-o.discount)) total_discount
+FROM orders o
+
+-- 22. Tables & Chairs
+-- List all product names under the "Tables" or "Chairs" subcategories, ordered alphabetically
+SELECT  DISTINCT p.product_name
+FROM products p 
+WHERE p.sub_category IN ("Tables", "Chairs")
+ORDER BY p.product_name ASC
+
+-- 23. Big and Bulk Orders
+-- List all records from the orders table with profit grater than 500 and quantity greater than 10 units
+SELECT *
+FROM orders o 
+WHERE o.profit > 500 AND o.quantity > 10
+
+-- 24. Lucky Customers
+-- How many unique customers received a discount of more than 70% on any product
+SELECT COUNT(DISTINCT o.customer_id)
+FROM orders o
+WHERE o.discount > .7
+
+-- 25. 3000 Profit Club
+-- List all orders where total profit exceeded $3000.
+-- Output order_id, total_profit (rounded to 2 decimal places, sorted fromt highest to lowest profit)
+SELECT o.order_id, ROUND(SUM(o.profit), 2) AS total_profit
+FROM orders o
+GROUP BY o.order_id
+HAVING total_profit > 3000
+ORDER BY total_profit DESC
+
