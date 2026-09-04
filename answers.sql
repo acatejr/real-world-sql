@@ -152,3 +152,122 @@ GROUP BY o.order_id
 HAVING total_profit > 3000
 ORDER BY total_profit DESC
 
+
+-- 26. First Time to Ten
+-- When was the first time more than 10 units of a product were sold in a single order?  Output the order_date
+SELECT MIN(o.order_date)
+FROM orders o
+WHERE o.quantity > 10
+
+-- 27. White Winners
+-- List all product names taht contain the word "White"
+SELECT DISTINCT p.product_name
+FROM products p
+WHERE p.product_name LIKE "%white%" OR p.product_name LIKE '%White%'
+
+-- 28. 2015 to 2017
+-- Return Return all records from the orders table that were ordered between 2015 and 2017, inclusiv
+SELECT *
+FROM orders o
+WHERE CAST(STRFTIME('%Y', o.order_date) AS Integer)BETWEEN 2015 AND 2017
+
+-- 29. Top 10 Customers
+-- Find the top 10 customers by profit.  Output customer_name, total_profit (rounded to 2 decimal places),
+-- sorted descending.
+SELECT c.customer_name , SUM(ROUND(o.profit, 2)) AS total_profit
+FROM orders o
+LEFT JOIN customers c ON c.customer_id = o.customer_id 
+GROUP BY c.customer_name  
+ORDER BY total_profit DESC
+LIMIT 10
+
+-- 30. Lost Sales
+-- Calculate the total value of sales lost due to returned orders.  Output as lost_sales.
+SELECT SUM(o.sales) AS lost_sales
+FROM orders o
+INNER JOIN returns r ON r.order_id = o.order_id
+
+SELECT SUM(o.sales) AS lost_sales
+FROM orders o
+LEFT JOIN returns r ON r.order_id = o.order_id
+WHERE r.returned IN ('YES', 'yes', 'Yes')
+
+-- 31. Subcategory Distribution
+-- Return the number of products in each subcategory, sorted from highest to lowest.
+SELECT COUNT(p.sub_category) AS category_count, p.sub_category 
+FROM products p
+GROUP BY p.sub_category 
+ORDER BY category_count DESC
+
+-- 32. Categories and Subcategories
+-- List each product category and its corresponding subcategories.  The outputs should contain
+-- two columns, category and sub_category, sorted alphabetically
+SELECT DISTINCT p.category, p.sub_category 
+FROM products p
+ORDER BY p.category, p.sub_category ASC
+
+-- 33. Overll Margin
+-- Calculate the overall average profit margin percentage, rounded to two decimal places.
+-- SELECT  ROUND(AVG((SUM(o.profit) / SUM(o.sales)) * 100), 2) AS avg_profit_margin 
+SELECT ROUND(((SUM(o.profit) / SUM(o.sales)) * 100), 2)
+FROM orders o
+
+-- 34. Marketing Fuel
+-- Superstore's marketing expense has always been 20% of sales.
+-- Based on this, calculate the overall marketing costs.
+SELECT SUM(o.sales) * 0.20
+FROM orders o
+
+-- 35. Segment AOV
+-- What is the average order value (AOV) per customer segement?
+-- Sort highest to lowest
+-- Average Order Value (AOV) is calculated by dividing your total revenue by the total number of orders 
+SELECT c.segment, SUM(o.sales) / COUNT(DISTINCT o.order_id)
+FROM customers c 
+LEFT JOIN orders o ON o.customer_id = c.customer_id
+GROUP BY c.segment
+
+-- 36. Lucrative States
+-- What are the most profitable states?
+SELECT l.state, SUM(o.profit) AS total_profit
+FROM locations l
+LEFT JOIN orders o ON o.postal_code = l.postal_code
+GROUP BY l.state
+ORDER BY total_profit DESC
+
+-- 37. Turtle Region
+-- Which region has the slowest average delivery time?  Output
+-- the region and its average delivery time.
+SELECT DISTINCT l.region, JULIANDAY(o.ship_date) - JULIANDAY(o.order_date) AS delivery_time
+FROM orders o
+LEFT JOIN locations l ON l.postal_code = o.postal_code
+ORDER BY delivery_time DESC
+
+-- 38. Peak Season
+-- Seasonality-wise, what are the top 3 months with highest sales?
+-- Output themonth number and total sales.
+SELECT CAST(STRFTIME('%m', o.order_date ) AS Integer) AS month, SUM(o.sales) total_sales
+FROM orders o
+GROUP BY month
+ORDER BY total_sales DESC
+
+-- 39. Lowest Low
+-- Which day had the lowest total sales?  If tied, return the earlier date.
+SELECT order_date --, STRFTIME('%d', o.order_date) AS sale_day, SUM(o.sales) AS total_sales
+FROM orders
+GROUP BY order_date
+ORDER BY SUM(sales), order_date
+LIMIT 1
+
+-- 40. Bestsellers
+-- What are the top 5 best selling product?  Output product_name, and total_sales
+--SELECT p.product_name AS product_name, SUM(o.profit )
+--FROM orders o
+--RIGHT JOIN products p ON p.product_id = o.order_id
+--GROUP BY product_name
+SELECT p.product_name AS product_name, SUM(o.sales) as total_sales
+FROM orders o
+LEFT JOIN products p ON p.product_id = o.product_id
+GROUP BY product_name
+ORDER BY total_sales DESC
+LIMIT 5
