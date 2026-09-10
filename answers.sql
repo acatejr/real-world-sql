@@ -6,7 +6,7 @@ SELECT * FROM orders LIMIT 5;
 --2. Retrieve all ID's where the shipping mode is "Second Class"
 SELECT order_id FROM orders WHERE ship_mode = 'Second Class';
 
---3. TList all records from the orders table where the discount is grater than 20%
+--3. TList all records from the orders table where the discount is greater than 20%
 select * from orders where discount > 0.2;
 
 -- 4. Find records from the orders table where sales exceed $500
@@ -91,7 +91,7 @@ GROUP BY order_year
 ORDER BY order_year ASC
 
 -- 17. High Discount, High Sales
--- List all records from the orders table where sales exceed $500 and discount is grater than 20%
+-- List all records from the orders table where sales exceed $500 and discount is greater than 20%
 SELECT o.sales, o.discount 
 FROM orders o
 WHERE o.sales > 500 AND o.discount > 0.2
@@ -132,7 +132,7 @@ WHERE p.sub_category IN ("Tables", "Chairs")
 ORDER BY p.product_name ASC
 
 -- 23. Big and Bulk Orders
--- List all records from the orders table with profit grater than 500 and quantity greater than 10 units
+-- List all records from the orders table with profit greater than 500 and quantity greater than 10 units
 SELECT *
 FROM orders o 
 WHERE o.profit > 500 AND o.quantity > 10
@@ -166,7 +166,7 @@ FROM products p
 WHERE p.product_name LIKE "%white%" OR p.product_name LIKE '%White%'
 
 -- 28. 2015 to 2017
--- Return Return all records from the orders table that were ordered between 2015 and 2017, inclusiv
+-- Return all records from the orders table that were ordered between 2015 and 2017, inclusiv
 SELECT *
 FROM orders o
 WHERE CAST(STRFTIME('%Y', o.order_date) AS Integer)BETWEEN 2015 AND 2017
@@ -271,3 +271,60 @@ LEFT JOIN products p ON p.product_id = o.product_id
 GROUP BY product_name
 ORDER BY total_sales DESC
 LIMIT 5
+
+--- Intermediate ---
+
+-- 1. Variety in the Cart
+-- List the names of customers who have purchased at least 30 differenct products.
+-- Output the customer name and the number of unique products bought.  Sort by 
+-- customer name, alphabetially.
+SELECT c.customer_name, COUNT(DISTINCT o.product_id) AS product_count  
+FROM orders o
+LEFT JOIN customers c ON o.customer_id = c.customer_id 
+GROUP BY c.customer_name 
+HAVING product_count >= 30
+ORDER BY c.customer_name
+
+-- 2. Derived Columns
+-- Return all records from the orders table with 2 additional columns:
+--	shipping_time: the number of days between ship_date and order_date
+--	high_profit:
+--		"High" if profit > 500
+--		"Mid" if profit between 100 and 500 inclusive
+--		"Low" if profit is < 100
+
+SELECT *, 
+   JULIANDAY(o.ship_date) - JULIANDAY(o.order_date) AS shipping_time,
+   (CASE 
+	   WHEN o.profit > 500 THEN "High"
+	   WHEN o.profit >= 100 AND o.profit <= 500 THEN "Mid"
+	   WHEN o.profit < 100 THEN "Low"
+	END) AS high_profit
+FROM orders o
+
+-- 3. Return Orders
+-- What percentage of orders were returned?
+SELECT 
+	SUM(CASE WHEN returned = "Yes" THEN 1 ELSE 0 END) / COUNT(*) * 100 AS returned_orders_pct
+FROM
+	(
+		SELECT DISTINCT order_id 
+		FROM orders
+	) o
+	LEFT JOIN returns r on r.order_id = o.order_id 
+   
+-- 4. Segment Return Rates
+-- Calculate the return rate of orders by customer segment
+-- Output segment, return_rate (rounded to 2 decimal places and shown with % sign).
+-- Sort by return rate in descending order.
+SELECT 
+   c.segment, 
+   CONCAT(ROUND(CAST(SUM(CASE WHEN r.returned = "Yes" THEN 1 ELSE 0 END) AS S REAL) / COUNT(*) * 100, 2), '%') AS return_rate
+FROM (
+		SELECT DISTINCT order_id, customer_id  
+		FROM orders
+	) u
+LEFT JOIN returns r ON r.order_id = u.order_id
+LEFT JOIN customers c ON c.customer_id = u.customer_id
+GROUP BY c.segment
+ORDER BY return_rate DESC
