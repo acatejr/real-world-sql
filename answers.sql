@@ -328,3 +328,12 @@ LEFT JOIN returns r ON r.order_id = u.order_id
 LEFT JOIN customers c ON c.customer_id = u.customer_id
 GROUP BY c.segment
 ORDER BY return_rate DESC
+
+-- 5. Largest Quantity Transactions
+-- List all records from the orders table that have the highest quantity.
+-- Output order_id, product_id, sales, quantity, and profit
+
+SELECT order_id, product_id, sales, quantity, profit
+FROM orders
+WHERE quantity = (SELECT MAX(quantity) FROM orders)
+
